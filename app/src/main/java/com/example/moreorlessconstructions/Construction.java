@@ -9,11 +9,11 @@ public class Construction {
     public Construction() {
     }
 
-    public Construction(int height, String image, String country, String name) {
+    public Construction(String name, int height, String image, String country) {
+        this.name = name;
         this.height = height;
         this.image = image;
         this.country = country;
-        this.name = name;
     }
 
     public String getName() {
