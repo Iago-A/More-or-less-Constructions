@@ -55,7 +55,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/top_image_view"
-        app:layout_constraintBottom_toBottomOf="@id/top_image_view"/>
+        app:layout_constraintBottom_toBottomOf="@id/top_image_view"
+        android:textSize="40sp"/>
 
     <TextView
         android:id="@+id/bottom_name_text_view"
@@ -83,6 +84,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/bottom_image_view"
-        app:layout_constraintBottom_toBottomOf="@id/bottom_image_view"/>
+        app:layout_constraintBottom_toBottomOf="@id/bottom_image_view"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/counter"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="40sp"
+        android:layout_margin="20dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

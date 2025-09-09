@@ -1,8 +1,14 @@
 package com.example.moreorlessconstructions;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.animation.BounceInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,6 +29,7 @@ import java.util.List;
 import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
+    private boolean gameOver = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,11 +50,12 @@ public class GameActivity extends AppCompatActivity {
         Random random = new Random();
         int randomNumber1 = 0;
         int randomNumber2 = 0;
+        int counter = 0;
 
         // Load the constructions data
         constructions = getConstructionsFromJson();
 
-        // Choose random constructions
+        // Choose different random constructions
         randomNumber1 = random.nextInt(constructions.size());
         do {
             randomNumber2 = random.nextInt(constructions.size());
@@ -77,13 +85,13 @@ public class GameActivity extends AppCompatActivity {
         bottomCountryTextView.setText(country2);
 
         topImageView.setOnClickListener(v -> {
-//            Toast.makeText(this, "Imagen superior", Toast.LENGTH_SHORT).show();
             showHeight(topHeightTextView, height1);
+            gameOver = checkResult(height1, height2);
         });
 
         bottomImageView.setOnClickListener(v -> {
-//            Toast.makeText(this, "Imagen inferior", Toast.LENGTH_SHORT).show();
             showHeight(bottomHeightTextView, height2);
+            gameOver = checkResult(height2, height1);
         });
     }
 
@@ -138,15 +146,51 @@ public class GameActivity extends AppCompatActivity {
         return constructions;
     }
 
-    // Seguir trabajando en esto**************************************************************
-    public void showHeight (TextView heightTextView, int height) {
-        int start = (int)(0.7 * height);
-        for (int i = start; i <= height; i++) {
-            final int currentValue = i;
-            int delay = (i - start) * 5; // 5 ms between each number
-            new Handler().postDelayed(() -> {
-                heightTextView.setText(Integer.toString(currentValue));
-            }, delay);
-        }
+    public void showHeight(TextView heightTextView, int height) {
+        int start = (int) (0.7 * height);
+
+        ValueAnimator animator = ValueAnimator.ofInt(start, height - 1);
+        animator.setDuration(1500); // Main duration
+        animator.setInterpolator(new android.view.animation.PathInterpolator(0.2f, 0f, 0f, 1f));
+
+        animator.addUpdateListener(animation -> {
+            int currentValue = (int) animation.getAnimatedValue();
+            heightTextView.setText(String.valueOf(currentValue));
+        });
+
+        animator.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                // Show real height whit a little delay
+                heightTextView.postDelayed(() -> {
+                    heightTextView.setText(String.valueOf(height));
+
+                    // Bounce animation at the end
+                    ObjectAnimator bounce = ObjectAnimator.ofFloat(heightTextView, "scaleY", 1f, 1.3f, 1f);
+                    bounce.setDuration(500);
+                    bounce.setInterpolator(new BounceInterpolator());
+                    bounce.start();
+
+                    ObjectAnimator bounceX = ObjectAnimator.ofFloat(heightTextView, "scaleX", 1f, 1.3f, 1f);
+                    bounceX.setDuration(500);
+                    bounceX.setInterpolator(new BounceInterpolator());
+                    bounceX.start();
+
+                }, 400); // Final delay
+            }
+        });
+
+        animator.start();
     }
+
+    public boolean checkResult (int chosenHeight, int leftoverHeight) {
+        boolean gameOver = false;
+
+        if (chosenHeight < leftoverHeight){
+            gameOver = true;
+        }
+
+        return gameOver;
+    }
+
 }
