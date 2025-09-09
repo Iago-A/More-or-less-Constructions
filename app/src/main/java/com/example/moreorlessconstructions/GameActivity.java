@@ -29,7 +29,22 @@ import java.util.List;
 import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
-    private boolean gameOver = false;
+    private boolean gameOver;
+    private String name1;
+    private int height1;
+    private String image1;
+    private String country1;
+    private String name2;
+    private int height2;
+    private String image2;
+    private String country2;
+    private int hitsCounter;
+    private ImageView topImageView;
+    private ImageView bottomImageView;
+    private boolean topSelected;
+    private int higherConstructionCounter;
+    private boolean topHeightShown;
+    private boolean bottomHeightShown;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,20 +52,23 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
 
         // Obtain views reference
-        ImageView topImageView = findViewById(R.id.top_image_view);
-        ImageView bottomImageView = findViewById(R.id.bottom_image_view);
+        topImageView = findViewById(R.id.top_image_view);
+        bottomImageView = findViewById(R.id.bottom_image_view);
         TextView topNameTextView = findViewById(R.id.top_name_text_view);
         TextView topCountryTextView = findViewById(R.id.top_country_text_view);
         TextView topHeightTextView = findViewById(R.id.top_height_text_view);
         TextView bottomNameTextView = findViewById(R.id.bottom_name_text_view);
         TextView bottomCountryTextView = findViewById(R.id.bottom_country_text_view);
         TextView bottomHeightTextView = findViewById(R.id.bottom_height_text_view);
+        TextView counterTextView = findViewById(R.id.counterTextView);
 
         List<Construction> constructions;
         Random random = new Random();
         int randomNumber1 = 0;
         int randomNumber2 = 0;
-        int counter = 0;
+        gameOver = false;
+        hitsCounter = 0;
+        higherConstructionCounter = 0;
 
         // Load the constructions data
         constructions = getConstructionsFromJson();
@@ -61,39 +79,81 @@ public class GameActivity extends AppCompatActivity {
             randomNumber2 = random.nextInt(constructions.size());
         } while(randomNumber1 == randomNumber2);
 
-        Construction cons1 = constructions.get(randomNumber1);
-        String name1 = cons1.getName();
-        int height1 = cons1.getHeight();
-        String image1 = cons1.getImage();
-        String country1 = cons1.getCountry();
+        loadConstruction(constructions, randomNumber1, true);
+        loadConstruction(constructions, randomNumber2, false);
 
-        Construction cons2 = constructions.get(randomNumber2);
-        String name2 = cons2.getName();
-        int height2 = cons2.getHeight();
-        String image2 = cons2.getImage();
-        String country2 = cons2.getCountry();
-
-        // Set construction data in the screen
+        // Set construction data and hitsCounter in the screen
         int resId1 = getResources().getIdentifier(image1, "drawable", getPackageName());
         topImageView.setImageResource(resId1);
         topNameTextView.setText(name1);
         topCountryTextView.setText(country1);
+        topHeightTextView.setText((height1) + " m");
+        topHeightShown = true;
 
         int resId2 = getResources().getIdentifier(image2, "drawable", getPackageName());
         bottomImageView.setImageResource(resId2);
         bottomNameTextView.setText(name2);
         bottomCountryTextView.setText(country2);
+        bottomHeightShown = false;
 
+        counterTextView.setText(Integer.toString(hitsCounter));
+
+        // Establish click listeners
         topImageView.setOnClickListener(v -> {
-            showHeight(topHeightTextView, height1);
-            gameOver = checkResult(height1, height2);
+            // Deactivate temporarily the click function
+            topImageView.setEnabled(false);
+            bottomImageView.setEnabled(false);
+
+            // At first round, top construction height is always visible
+            //Therefore, we will shown the bottom construction height
+            showHeight(bottomHeightTextView, height1, () -> {
+                // Callback when animation end
+                gameOver = checkResult(height1, height2, counterTextView);
+
+                if (!gameOver) {
+                    startNewRound();
+                } else {
+                    endGame();
+                }
+            });
         });
 
         bottomImageView.setOnClickListener(v -> {
-            showHeight(bottomHeightTextView, height2);
-            gameOver = checkResult(height2, height1);
+            // Deactivate temporarily the click function
+            topImageView.setEnabled(false);
+            bottomImageView.setEnabled(false);
+
+            showHeight(bottomHeightTextView, height2, () -> {
+                // Callback when animation end
+                gameOver = checkResult(height2, height1, counterTextView);
+
+                if (!gameOver) {
+                    startNewRound();
+                } else {
+                    endGame();
+                }
+            });
         });
     }
+
+
+    public void loadConstruction(List<Construction> constructions, int index, boolean isTop) {
+        // Get chosen construction from the constructions list
+        Construction cons = constructions.get(index);
+
+        if (isTop) {
+            name1 = cons.getName();
+            height1 = cons.getHeight();
+            image1 = cons.getImage();
+            country1 = cons.getCountry();
+        } else {
+            name2 = cons.getName();
+            height2 = cons.getHeight();
+            image2 = cons.getImage();
+            country2 = cons.getCountry();
+        }
+    }
+
 
     public List<Construction> getConstructionsFromJson (){
         // List to save each construction as an object
@@ -146,7 +206,8 @@ public class GameActivity extends AppCompatActivity {
         return constructions;
     }
 
-    public void showHeight(TextView heightTextView, int height) {
+
+    public void showHeight(TextView heightTextView, int height, Runnable onAnimationEnd) {
         int start = (int) (0.7 * height);
 
         ValueAnimator animator = ValueAnimator.ofInt(start, height - 1);
@@ -155,7 +216,7 @@ public class GameActivity extends AppCompatActivity {
 
         animator.addUpdateListener(animation -> {
             int currentValue = (int) animation.getAnimatedValue();
-            heightTextView.setText(String.valueOf(currentValue));
+            heightTextView.setText(currentValue + " m");
         });
 
         animator.addListener(new AnimatorListenerAdapter() {
@@ -163,7 +224,7 @@ public class GameActivity extends AppCompatActivity {
             public void onAnimationEnd(Animator animation) {
                 // Show real height whit a little delay
                 heightTextView.postDelayed(() -> {
-                    heightTextView.setText(String.valueOf(height));
+                    heightTextView.setText(height + " m");
 
                     // Bounce animation at the end
                     ObjectAnimator bounce = ObjectAnimator.ofFloat(heightTextView, "scaleY", 1f, 1.3f, 1f);
@@ -176,6 +237,13 @@ public class GameActivity extends AppCompatActivity {
                     bounceX.setInterpolator(new BounceInterpolator());
                     bounceX.start();
 
+                    // Reactivate clicks
+                    topImageView.setEnabled(true);
+                    bottomImageView.setEnabled(true);
+
+                    // Execute callback when animation ends
+                    if (onAnimationEnd != null) onAnimationEnd.run();
+
                 }, 400); // Final delay
             }
         });
@@ -183,14 +251,29 @@ public class GameActivity extends AppCompatActivity {
         animator.start();
     }
 
-    public boolean checkResult (int chosenHeight, int leftoverHeight) {
+
+    public boolean checkResult (int chosenHeight, int leftoverHeight, TextView counterTextView) {
         boolean gameOver = false;
 
         if (chosenHeight < leftoverHeight){
             gameOver = true;
         }
+        else {
+            hitsCounter += 1;
+            counterTextView.setText(Integer.toString(hitsCounter));
+        }
 
         return gameOver;
+    }
+
+
+    private void startNewRound() {
+
+    }
+
+
+    private void endGame() {
+        Toast.makeText(this, "¡Game Over!", Toast.LENGTH_SHORT).show();
     }
 
 }
