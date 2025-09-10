@@ -28,7 +28,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+// In game replacement rules:
+// - The loser is usually replaced
+// - If the winner has won 2 consecutive rounds (winStreak), the winner is replaced
+
 public class GameActivity extends AppCompatActivity {
+    private int randomNumber1;
+    private int randomNumber2;
     private boolean gameOver;
     private String name1;
     private int height1;
@@ -39,12 +45,22 @@ public class GameActivity extends AppCompatActivity {
     private String image2;
     private String country2;
     private int hitsCounter;
+
     private ImageView topImageView;
     private ImageView bottomImageView;
+    private TextView topNameTextView;
+    private TextView topCountryTextView;
+    private TextView topHeightTextView;
+    private TextView bottomNameTextView;
+    private TextView bottomCountryTextView;
+    private TextView bottomHeightTextView;
+    private TextView counterTextView;
+
     private boolean topSelected;
-    private int higherConstructionCounter;
     private boolean topHeightShown;
     private boolean bottomHeightShown;
+    private int winStreak;
+    private Boolean topWonLastRound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,21 +70,20 @@ public class GameActivity extends AppCompatActivity {
         // Obtain views reference
         topImageView = findViewById(R.id.top_image_view);
         bottomImageView = findViewById(R.id.bottom_image_view);
-        TextView topNameTextView = findViewById(R.id.top_name_text_view);
-        TextView topCountryTextView = findViewById(R.id.top_country_text_view);
-        TextView topHeightTextView = findViewById(R.id.top_height_text_view);
-        TextView bottomNameTextView = findViewById(R.id.bottom_name_text_view);
-        TextView bottomCountryTextView = findViewById(R.id.bottom_country_text_view);
-        TextView bottomHeightTextView = findViewById(R.id.bottom_height_text_view);
-        TextView counterTextView = findViewById(R.id.counterTextView);
+        topNameTextView = findViewById(R.id.top_name_text_view);
+        topCountryTextView = findViewById(R.id.top_country_text_view);
+        topHeightTextView = findViewById(R.id.top_height_text_view);
+        bottomNameTextView = findViewById(R.id.bottom_name_text_view);
+        bottomCountryTextView = findViewById(R.id.bottom_country_text_view);
+        bottomHeightTextView = findViewById(R.id.bottom_height_text_view);
+        counterTextView = findViewById(R.id.counterTextView);
 
         List<Construction> constructions;
         Random random = new Random();
-        int randomNumber1 = 0;
-        int randomNumber2 = 0;
         gameOver = false;
         hitsCounter = 0;
-        higherConstructionCounter = 0;
+        winStreak = 0;
+        topWonLastRound = null;
 
         // Load the constructions data
         constructions = getConstructionsFromJson();
@@ -82,18 +97,7 @@ public class GameActivity extends AppCompatActivity {
         loadConstruction(constructions, randomNumber1, true);
         loadConstruction(constructions, randomNumber2, false);
 
-        // Set construction data and hitsCounter in the screen
-        int resId1 = getResources().getIdentifier(image1, "drawable", getPackageName());
-        topImageView.setImageResource(resId1);
-        topNameTextView.setText(name1);
-        topCountryTextView.setText(country1);
-        topHeightTextView.setText((height1) + " m");
         topHeightShown = true;
-
-        int resId2 = getResources().getIdentifier(image2, "drawable", getPackageName());
-        bottomImageView.setImageResource(resId2);
-        bottomNameTextView.setText(name2);
-        bottomCountryTextView.setText(country2);
         bottomHeightShown = false;
 
         counterTextView.setText(Integer.toString(hitsCounter));
@@ -111,7 +115,7 @@ public class GameActivity extends AppCompatActivity {
                 gameOver = checkResult(height1, height2, counterTextView);
 
                 if (!gameOver) {
-                    startNewRound();
+                    startNewRound(constructions);
                 } else {
                     endGame();
                 }
@@ -128,30 +132,12 @@ public class GameActivity extends AppCompatActivity {
                 gameOver = checkResult(height2, height1, counterTextView);
 
                 if (!gameOver) {
-                    startNewRound();
+                    startNewRound(constructions);
                 } else {
                     endGame();
                 }
             });
         });
-    }
-
-
-    public void loadConstruction(List<Construction> constructions, int index, boolean isTop) {
-        // Get chosen construction from the constructions list
-        Construction cons = constructions.get(index);
-
-        if (isTop) {
-            name1 = cons.getName();
-            height1 = cons.getHeight();
-            image1 = cons.getImage();
-            country1 = cons.getCountry();
-        } else {
-            name2 = cons.getName();
-            height2 = cons.getHeight();
-            image2 = cons.getImage();
-            country2 = cons.getCountry();
-        }
     }
 
 
@@ -204,6 +190,40 @@ public class GameActivity extends AppCompatActivity {
         }
 
         return constructions;
+    }
+
+
+    public void loadConstruction(List<Construction> constructions, int index, boolean isTop) {
+        // Get chosen construction from the constructions list
+        Construction cons = constructions.get(index);
+
+        // New top construction
+        if (isTop) {
+            name1 = cons.getName();
+            height1 = cons.getHeight();
+            image1 = cons.getImage();
+            country1 = cons.getCountry();
+
+            // Set construction data in the screen
+            int resId1 = getResources().getIdentifier(image1, "drawable", getPackageName());
+            topImageView.setImageResource(resId1);
+            topNameTextView.setText(name1);
+            topCountryTextView.setText(country1);
+            topHeightTextView.setText((height1) + " m");
+        }
+        // New bottom construction
+        else {
+            name2 = cons.getName();
+            height2 = cons.getHeight();
+            image2 = cons.getImage();
+            country2 = cons.getCountry();
+
+            // Set construction data in the screen
+            int resId2 = getResources().getIdentifier(image2, "drawable", getPackageName());
+            bottomImageView.setImageResource(resId2);
+            bottomNameTextView.setText(name2);
+            bottomCountryTextView.setText(country2);
+        }
     }
 
 
@@ -267,8 +287,57 @@ public class GameActivity extends AppCompatActivity {
     }
 
 
-    private void startNewRound() {
+    private void startNewRound(List<Construction> constructions) {
+        Random random = new Random();
+        boolean topIsHigher;
 
+        // See the current round winner
+        if (height1 > height2) {
+            topIsHigher = true;
+        }
+        else {
+            topIsHigher = false;
+        }
+
+        // Update the consecutive wins counter
+        if (topWonLastRound == topIsHigher) {
+            winStreak += 1;
+        } else {
+            winStreak = 1;
+        }
+
+        // Update the winner
+        topWonLastRound = topIsHigher;
+
+        // Choose the new construction for the next round
+        int newIndex;
+        do {
+            newIndex = random.nextInt(constructions.size());
+        } while (newIndex == randomNumber1 || newIndex == randomNumber2);
+
+        // Replacement rules:
+        // - The loser is usually replaced
+        // - If the winner has won 2 consecutive rounds (winStreak), the winner is replaced
+        if (winStreak == 2) {
+            // Replace the winner
+            if (topIsHigher) {
+                randomNumber1 = newIndex;
+                loadConstruction(constructions, randomNumber1, true);
+            } else {
+                randomNumber2 = newIndex;
+                loadConstruction(constructions, randomNumber2, false);
+            }
+            winStreak = 0;
+        } else {
+            // Replace the loser
+            if (topIsHigher) {
+                randomNumber2 = newIndex;
+                loadConstruction(constructions, randomNumber2, false);
+            } else {
+                randomNumber1 = newIndex;
+                loadConstruction(constructions, randomNumber1, true);
+            }
+        }
     }
 
 
