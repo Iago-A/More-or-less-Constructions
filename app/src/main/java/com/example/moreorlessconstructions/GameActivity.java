@@ -2,13 +2,11 @@ package com.example.moreorlessconstructions;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
-import android.os.Handler;
-import android.util.Log;
 import android.view.animation.BounceInterpolator;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -56,9 +54,7 @@ public class GameActivity extends AppCompatActivity {
     private TextView bottomHeightTextView;
     private TextView counterTextView;
 
-    private boolean topSelected;
     private boolean topHeightShown;
-    private boolean bottomHeightShown;
     private int winStreak;
     private Boolean topWonLastRound;
 
@@ -97,10 +93,10 @@ public class GameActivity extends AppCompatActivity {
         loadConstruction(constructions, randomNumber1, true);
         loadConstruction(constructions, randomNumber2, false);
 
-        topHeightShown = true;
-        bottomHeightShown = false;
-
+        topHeightTextView.setText((height1) + " m");
         counterTextView.setText(Integer.toString(hitsCounter));
+
+        topHeightShown = true;
 
         // Establish click listeners
         topImageView.setOnClickListener(v -> {
@@ -110,9 +106,9 @@ public class GameActivity extends AppCompatActivity {
 
             // At first round, top construction height is always visible
             //Therefore, we will shown the bottom construction height
-            showHeight(bottomHeightTextView, height1, () -> {
+            showHeight(() -> {
                 // Callback when animation end
-                gameOver = checkResult(height1, height2, counterTextView);
+                gameOver = checkResult(height1, height2);
 
                 if (!gameOver) {
                     startNewRound(constructions);
@@ -127,9 +123,9 @@ public class GameActivity extends AppCompatActivity {
             topImageView.setEnabled(false);
             bottomImageView.setEnabled(false);
 
-            showHeight(bottomHeightTextView, height2, () -> {
+            showHeight(() -> {
                 // Callback when animation end
-                gameOver = checkResult(height2, height1, counterTextView);
+                gameOver = checkResult(height2, height1);
 
                 if (!gameOver) {
                     startNewRound(constructions);
@@ -209,7 +205,6 @@ public class GameActivity extends AppCompatActivity {
             topImageView.setImageResource(resId1);
             topNameTextView.setText(name1);
             topCountryTextView.setText(country1);
-            topHeightTextView.setText((height1) + " m");
         }
         // New bottom construction
         else {
@@ -227,44 +222,54 @@ public class GameActivity extends AppCompatActivity {
     }
 
 
-    public void showHeight(TextView heightTextView, int height, Runnable onAnimationEnd) {
+    public void showHeight(Runnable onAnimationEnd) {
+        if (topHeightShown) {
+            // Show bottom construction height
+            animateHeight(bottomHeightTextView, height2, onAnimationEnd);
+        } else {
+            // Show top construction height
+            animateHeight(topHeightTextView, height1, onAnimationEnd);
+        }
+    }
+
+
+    private void animateHeight(TextView heightTextView, int height, Runnable onAnimationEnd) {
         int start = (int) (0.7 * height);
 
         ValueAnimator animator = ValueAnimator.ofInt(start, height - 1);
         animator.setDuration(1500); // Main duration
         animator.setInterpolator(new android.view.animation.PathInterpolator(0.2f, 0f, 0f, 1f));
 
-        animator.addUpdateListener(animation -> {
-            int currentValue = (int) animation.getAnimatedValue();
-            heightTextView.setText(currentValue + " m");
-        });
+        animator.addUpdateListener(animation -> heightTextView.setText(animation.getAnimatedValue() + " m"));
 
         animator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                // Show real height whit a little delay
                 heightTextView.postDelayed(() -> {
                     heightTextView.setText(height + " m");
 
-                    // Bounce animation at the end
-                    ObjectAnimator bounce = ObjectAnimator.ofFloat(heightTextView, "scaleY", 1f, 1.3f, 1f);
-                    bounce.setDuration(500);
-                    bounce.setInterpolator(new BounceInterpolator());
-                    bounce.start();
-
+                    // Bounce X and Y whit AnimatorSet
+                    ObjectAnimator bounceY = ObjectAnimator.ofFloat(heightTextView, "scaleY", 1f, 1.3f, 1f);
                     ObjectAnimator bounceX = ObjectAnimator.ofFloat(heightTextView, "scaleX", 1f, 1.3f, 1f);
-                    bounceX.setDuration(500);
-                    bounceX.setInterpolator(new BounceInterpolator());
-                    bounceX.start();
 
-                    // Reactivate clicks
-                    topImageView.setEnabled(true);
-                    bottomImageView.setEnabled(true);
+                    AnimatorSet bounceSet = new AnimatorSet();
+                    bounceSet.playTogether(bounceX, bounceY);
+                    bounceSet.setDuration(500);
+                    bounceSet.setInterpolator(new BounceInterpolator());
 
-                    // Execute callback when animation ends
-                    if (onAnimationEnd != null) onAnimationEnd.run();
+                    // Execute callback (only when bounce is over)
+                    bounceSet.addListener(new AnimatorListenerAdapter() {
+                        @Override
+                        public void onAnimationEnd(Animator animation) {
+                            topImageView.setEnabled(true);
+                            bottomImageView.setEnabled(true);
+                            if (onAnimationEnd != null) onAnimationEnd.run();
+                        }
+                    });
 
-                }, 400); // Final delay
+                    bounceSet.start();
+
+                }, 400);
             }
         });
 
@@ -272,7 +277,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
 
-    public boolean checkResult (int chosenHeight, int leftoverHeight, TextView counterTextView) {
+    public boolean checkResult (int chosenHeight, int leftoverHeight) {
         boolean gameOver = false;
 
         if (chosenHeight < leftoverHeight){
@@ -300,7 +305,7 @@ public class GameActivity extends AppCompatActivity {
         }
 
         // Update the consecutive wins counter
-        if (topWonLastRound == topIsHigher) {
+        if (topWonLastRound != null && topWonLastRound == topIsHigher) {
             winStreak += 1;
         } else {
             winStreak = 1;
@@ -323,9 +328,15 @@ public class GameActivity extends AppCompatActivity {
             if (topIsHigher) {
                 randomNumber1 = newIndex;
                 loadConstruction(constructions, randomNumber1, true);
+
+                topHeightTextView.setText("");
+                topHeightShown = false;
             } else {
                 randomNumber2 = newIndex;
                 loadConstruction(constructions, randomNumber2, false);
+
+                bottomHeightTextView.setText("");
+                topHeightShown = true;
             }
             winStreak = 0;
         } else {
@@ -333,9 +344,15 @@ public class GameActivity extends AppCompatActivity {
             if (topIsHigher) {
                 randomNumber2 = newIndex;
                 loadConstruction(constructions, randomNumber2, false);
+
+                bottomHeightTextView.setText("");
+                topHeightShown = true;
             } else {
                 randomNumber1 = newIndex;
                 loadConstruction(constructions, randomNumber1, true);
+
+                topHeightTextView.setText("");
+                topHeightShown = false;
             }
         }
     }
