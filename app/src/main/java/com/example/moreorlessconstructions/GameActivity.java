@@ -5,6 +5,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.animation.BounceInterpolator;
 import android.widget.ImageView;
@@ -104,13 +105,12 @@ public class GameActivity extends AppCompatActivity {
             topImageView.setEnabled(false);
             bottomImageView.setEnabled(false);
 
-            // At first round, top construction height is always visible
-            //Therefore, we will shown the bottom construction height
+            checkResult(height1, height2);
+
             showHeight(() -> {
                 // Callback when animation end
-                gameOver = checkResult(height1, height2);
-
                 if (!gameOver) {
+                    updateCounter();
                     startNewRound(constructions);
                 } else {
                     endGame();
@@ -123,11 +123,12 @@ public class GameActivity extends AppCompatActivity {
             topImageView.setEnabled(false);
             bottomImageView.setEnabled(false);
 
+            checkResult(height2, height1);
+
             showHeight(() -> {
                 // Callback when animation end
-                gameOver = checkResult(height2, height1);
-
                 if (!gameOver) {
+                    updateCounter();
                     startNewRound(constructions);
                 } else {
                     endGame();
@@ -257,6 +258,14 @@ public class GameActivity extends AppCompatActivity {
                     bounceSet.setDuration(500);
                     bounceSet.setInterpolator(new BounceInterpolator());
 
+                    // Play sound effect
+                    if (gameOver) {
+                        playSound(R.raw.bass);
+                    }
+                    else {
+                        playSound(R.raw.win_sound);
+                    }
+
                     // Execute callback (only when bounce is over)
                     bounceSet.addListener(new AnimatorListenerAdapter() {
                         @Override
@@ -277,18 +286,18 @@ public class GameActivity extends AppCompatActivity {
     }
 
 
-    public boolean checkResult (int chosenHeight, int leftoverHeight) {
-        boolean gameOver = false;
+    public void checkResult (int chosenHeight, int leftoverHeight) {
+        // gameOver starts being false
 
         if (chosenHeight < leftoverHeight){
             gameOver = true;
         }
-        else {
-            hitsCounter += 1;
-            counterTextView.setText(Integer.toString(hitsCounter));
-        }
+    }
 
-        return gameOver;
+
+    public void updateCounter () {
+        hitsCounter += 1;
+        counterTextView.setText(Integer.toString(hitsCounter));
     }
 
 
@@ -360,6 +369,15 @@ public class GameActivity extends AppCompatActivity {
 
     private void endGame() {
         Toast.makeText(this, "¡Game Over!", Toast.LENGTH_SHORT).show();
+    }
+
+
+    private void playSound(int resId) {
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, resId);
+        mediaPlayer.start();
+        mediaPlayer.setOnCompletionListener(mp -> {
+            mp.release(); // Release resources when finished
+        });
     }
 
 }

@@ -29,23 +29,41 @@
         android:clickable="true"
         android:focusable="true"/>
 
-    <TextView
-        android:id="@+id/top_name_text_view"
-        android:textColor="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/top_country_text_view"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="20dp"/>
+    <LinearLayout
+       android:id="@+id/top_info_card"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="12dp"
+       android:layout_margin="10dp"
+       android:background="@drawable/card_background"
+       app:layout_constraintBottom_toBottomOf="@id/top_image_view"
+       app:layout_constraintStart_toStartOf="parent">
 
-    <TextView
-        android:id="@+id/top_country_text_view"
-        android:textColor="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@id/top_image_view"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/top_country_text_view"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:textStyle="italic"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+        <TextView
+            android:id="@+id/top_name_text_view"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/top_height_text_view"
@@ -56,25 +74,48 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/top_image_view"
         app:layout_constraintBottom_toBottomOf="@id/top_image_view"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:background="#20000000"/>
 
-    <TextView
-        android:id="@+id/bottom_name_text_view"
-        android:textColor="@color/white"
+    <LinearLayout
+        android:id="@+id/bottom_info_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/bottom_country_text_view"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="20dp"/>
-
-    <TextView
-        android:id="@+id/bottom_country_text_view"
-        android:textColor="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/card_background"
         app:layout_constraintBottom_toBottomOf="@id/bottom_image_view"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="20dp"/>
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/bottom_country_text_view"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:textStyle="italic"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+        <TextView
+            android:id="@+id/bottom_name_text_view"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/bottom_height_text_view"
