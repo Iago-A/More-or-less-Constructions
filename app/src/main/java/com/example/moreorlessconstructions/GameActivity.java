@@ -5,6 +5,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.animation.BounceInterpolator;
@@ -32,6 +33,8 @@ import java.util.Random;
 // - If the winner has won 2 consecutive rounds (winStreak), the winner is replaced
 
 public class GameActivity extends AppCompatActivity {
+    private SharedPreferences prefs;
+
     private int randomNumber1;
     private int randomNumber2;
     private boolean gameOver;
@@ -44,6 +47,10 @@ public class GameActivity extends AppCompatActivity {
     private String image2;
     private String country2;
     private int hitsCounter;
+    private int recordCounter;
+    private boolean topHeightShown;
+    private int winStreak;
+    private Boolean topWonLastRound;
 
     private ImageView topImageView;
     private ImageView bottomImageView;
@@ -54,15 +61,14 @@ public class GameActivity extends AppCompatActivity {
     private TextView bottomCountryTextView;
     private TextView bottomHeightTextView;
     private TextView counterTextView;
-
-    private boolean topHeightShown;
-    private int winStreak;
-    private Boolean topWonLastRound;
+    private TextView recordCounterTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+
+        prefs = getSharedPreferences("user_prefs", MODE_PRIVATE);
 
         // Obtain views reference
         topImageView = findViewById(R.id.top_image_view);
@@ -73,12 +79,14 @@ public class GameActivity extends AppCompatActivity {
         bottomNameTextView = findViewById(R.id.bottom_name_text_view);
         bottomCountryTextView = findViewById(R.id.bottom_country_text_view);
         bottomHeightTextView = findViewById(R.id.bottom_height_text_view);
-        counterTextView = findViewById(R.id.counterTextView);
+        counterTextView = findViewById(R.id.counter_text_view);
+        recordCounterTextView = findViewById(R.id.record_counter_text_view);
 
         List<Construction> constructions;
         Random random = new Random();
         gameOver = false;
         hitsCounter = 0;
+        recordCounter = prefs.getInt("best_score", 0);
         winStreak = 0;
         topWonLastRound = null;
 
@@ -95,7 +103,8 @@ public class GameActivity extends AppCompatActivity {
         loadConstruction(constructions, randomNumber2, false);
 
         topHeightTextView.setText((height1) + " m");
-        counterTextView.setText(Integer.toString(hitsCounter));
+        counterTextView.setText(hitsCounter + " | ");
+        recordCounterTextView.setText(Integer.toString(recordCounter));
 
         topHeightShown = true;
 
@@ -297,7 +306,7 @@ public class GameActivity extends AppCompatActivity {
 
     public void updateCounter () {
         hitsCounter += 1;
-        counterTextView.setText(Integer.toString(hitsCounter));
+        counterTextView.setText(hitsCounter + " | ");
     }
 
 
@@ -369,6 +378,14 @@ public class GameActivity extends AppCompatActivity {
 
     private void endGame() {
         Toast.makeText(this, "¡Game Over!", Toast.LENGTH_SHORT).show();
+
+        // If actual score is better than the record score, we save it in share preferences
+        if (hitsCounter > recordCounter) {
+            SharedPreferences.Editor editor = prefs.edit();
+
+            editor.putInt("best_score", hitsCounter);
+            editor.apply();
+        }
     }
 
 
