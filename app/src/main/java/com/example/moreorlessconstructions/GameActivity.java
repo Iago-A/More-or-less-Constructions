@@ -378,8 +378,6 @@ public class GameActivity extends AppCompatActivity {
 
 
     private void endGame() {
-        Toast.makeText(this, "¡Game Over!", Toast.LENGTH_SHORT).show();
-
         // If actual score is better than the record score, we save it in share preferences
         if (hitsCounter > recordCounter) {
             SharedPreferences.Editor editor = prefs.edit();
