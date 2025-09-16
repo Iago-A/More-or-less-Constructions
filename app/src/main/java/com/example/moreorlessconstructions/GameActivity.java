@@ -389,6 +389,7 @@ public class GameActivity extends AppCompatActivity {
         Intent intent = new Intent(GameActivity.this, GameOverActivity.class);
         intent.putExtra("score", hitsCounter);
         startActivity(intent);
+        finish(); // To avoid the user could return using the back phone button
     }
 
 
