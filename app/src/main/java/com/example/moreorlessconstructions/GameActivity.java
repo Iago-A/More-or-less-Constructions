@@ -5,6 +5,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -386,6 +387,10 @@ public class GameActivity extends AppCompatActivity {
             editor.putInt("best_score", hitsCounter);
             editor.apply();
         }
+
+        Intent intent = new Intent(GameActivity.this, GameOverActivity.class);
+        intent.putExtra("score", hitsCounter);
+        startActivity(intent);
     }
 
 
