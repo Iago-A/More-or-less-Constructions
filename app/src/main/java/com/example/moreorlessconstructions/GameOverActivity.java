@@ -22,7 +22,7 @@ public class GameOverActivity extends AppCompatActivity {
         Button playAgainButton = findViewById(R.id.play_again_button);
         Button mainMenuButton = findViewById(R.id.main_menu_button);
 
-        int score = getIntent().getIntExtra("score", 3);
+        int score = getIntent().getIntExtra("score", 0);
 
         // Set values to text views
         scoreNumberTextView.setText(String.valueOf(score));

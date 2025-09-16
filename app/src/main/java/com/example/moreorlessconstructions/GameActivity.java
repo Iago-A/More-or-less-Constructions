@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.view.animation.BounceInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -27,6 +26,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
 
 // In game replacement rules:
@@ -152,8 +152,20 @@ public class GameActivity extends AppCompatActivity {
         // List to save each construction as an object
         List<Construction> constructions = new ArrayList<>();
 
-        // Open an Input Stream to the raw file
-        InputStream inputStream = getResources().openRawResource(R.raw.constructions);
+        // Detect actual phone language
+        Locale current = getResources().getConfiguration().getLocales().get(0); // First active locale
+        String lang = current.getLanguage();
+
+        String filename = "constructions_" + lang;
+        int resId = getResources().getIdentifier(filename, "raw", getPackageName());
+
+        // If filename wasn't found, use English JSON as default
+        if (resId == 0) {
+            resId = R.raw.constructions_en;
+        }
+
+        // Open an Input Stream to the correct raw file
+        InputStream inputStream = getResources().openRawResource(resId);
 
         try{
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
