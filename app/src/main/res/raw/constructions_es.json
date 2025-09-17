@@ -22,5 +22,281 @@
     "height": 601,
     "image": "abraj_al_bait",
     "country": "Arabia Saudita"
+  },
+  {
+    "name": "Ping An Finance Center",
+    "height": 599,
+    "image": "ping_an_finance_center",
+    "country": "China"
+  },
+  {
+    "name": "Lotte World Tower",
+    "height": 556,
+    "image": "lotte_world_tower",
+    "country": "Corea del Sur"
+  },
+  {
+    "name": "One World Trade Center",
+    "height": 546,
+    "image": "one_world_trade_center",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Torre CN",
+    "height": 533,
+    "image": "cn_tower",
+    "country": "Canadá"
+  },
+  {
+    "name": "Guangzhou CTF Finance Centre",
+    "height": 530,
+    "image": "guangzhou_ctf_finance_centre",
+    "country": "China"
+  },
+  {
+    "name": "Tianjin CTF Finance Centre",
+    "height": 530,
+    "image": "tianjin_ctf_finance_centre",
+    "country": "China"
+  },
+  {
+    "name": "Torre CITIC",
+    "height": 528,
+    "image": "citic_tower",
+    "country": "China"
+  },
+  {
+    "name": "Taipei 101",
+    "height": 508,
+    "image": "taipei_101",
+    "country": "Taiwán"
+  },
+  {
+    "name": "Shanghai World Financial Center",
+    "height": 492,
+    "image": "shanghai_world_financial_center",
+    "country": "China"
+  },
+  {
+    "name": "International Commerce Centre",
+    "height": 484,
+    "image": "international_commerce_centre",
+    "country": "Hong Kong"
+  },
+  {
+    "name": "Wuhan Greenland Center",
+    "height": 476,
+    "image": "wuhan_greenland_center",
+    "country": "China"
+  },
+  {
+    "name": "Torre Central Park",
+    "height": 472,
+    "image": "central_park_tower",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Lakhta Center",
+    "height": 462,
+    "image": "lakhta_center",
+    "country": "Rusia"
+  },
+  {
+    "name": "Vincom Landmark 81",
+    "height": 461,
+    "image": "vincom_landmark_81",
+    "country": "Vietnam"
+  },
+  {
+    "name": "Changsha IFS Tower T1",
+    "height": 452,
+    "image": "changsha_ifs_tower_t1",
+    "country": "China"
+  },
+  {
+    "name": "Torres Petronas",
+    "height": 452,
+    "image": "petronas_towers",
+    "country": "Malasia"
+  },
+  {
+    "name": "Suzhou IFS",
+    "height": 450,
+    "image": "suzhou_ifs",
+    "country": "China"
+  },
+  {
+    "name": "Torre Willis",
+    "height": 442,
+    "image": "willis_tower",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "KK100",
+    "height": 442,
+    "image": "kk100",
+    "country": "China"
+  },
+  {
+    "name": "Guangzhou International Finance Center",
+    "height": 439,
+    "image": "guangzhou_international_finance_center",
+    "country": "China"
+  },
+  {
+    "name": "Trump International Hotel",
+    "height": 423,
+    "image": "trump_international_hotel_and_tower",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Torre Jin Mao",
+    "height": 420,
+    "image": "jin_mao_tower",
+    "country": "China"
+  },
+  {
+    "name": "Torre Princess",
+    "height": 413,
+    "image": "princess_tower",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Torre Al Hamra",
+    "height": 413,
+    "image": "al_hamra_tower",
+    "country": "Kuwait"
+  },
+  {
+    "name": "Torre Eiffel",
+    "height": 300,
+    "image": "eiffel_tower",
+    "country": "Francia"
+  },
+  {
+    "name": "Space Needle de Seattle",
+    "height": 184,
+    "image": "space_needle",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Pirámide de Keops",
+    "height": 139,
+    "image": "kheops_pyramid",
+    "country": "Egipto"
+  },
+  {
+    "name": "Basílica de San Pedro",
+    "height": 137,
+    "image": "st_peters_basilica",
+    "country": "Italia"
+  },
+  {
+    "name": "Pirámide de Kefrén",
+    "height": 136,
+    "image": "kefren_pyramid",
+    "country": "Egipto"
+  },
+  {
+    "name": "Hotel Luxor",
+    "height": 111,
+    "image": "luxor_hotel",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Pirámide roja",
+    "height": 104,
+    "image": "red_pyramid",
+    "country": "Egipto"
+  },
+  {
+    "name": "Estatua de la Libertad",
+    "height": 93,
+    "image": "statue_of_liberty",
+    "country": "EStados Unidos"
+  },
+  {
+    "name": "Catedral de Notre Dame",
+    "height": 90,
+    "image": "notre_dame",
+    "country": "Francia"
+  },
+  {
+    "name": "Taj Mahal",
+    "height": 73,
+    "image": "taj_mahal",
+    "country": "India"
+  },
+  {
+    "name": "Ópera de Sídney",
+    "height": 67,
+    "image": "sydney_opera_house",
+    "country": "Australia"
+  },
+  {
+    "name": "Puente Golden Gate",
+    "height": 67,
+    "image": "golden_gate",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Templo de  Angkor Wat",
+    "height": 65,
+    "image": "angkor_wat",
+    "country": "Camboya"
+  },
+  {
+    "name": "Pirámide del Sol",
+    "height": 65,
+    "image": "sun_pyramid",
+    "country": "México"
+  },
+  {
+    "name": "Pirámide de Micerino",
+    "height": 61,
+    "image": "micerino_pyramid",
+    "country": "Egipto"
+  },
+  {
+    "name": "Pirámide escalonada de Zoser",
+    "height": 60,
+    "image": "zoser_pyramid",
+    "country": "Egipto"
+  },
+  {
+    "name": "Torre de Pisa",
+    "height": 57,
+    "image": "pisa_tower",
+    "country": "Italia"
+  },
+  {
+    "name": "Coliseo Romano",
+    "height": 49,
+    "image": "roman_colosseum",
+    "country": "Italia"
+  },
+  {
+    "name": "Pirámide de la Luna",
+    "height": 43,
+    "image": "moon_pyramid",
+    "country": "México"
+  },
+  {
+    "name": "Cristo Redentor",
+    "height": 38,
+    "image": "cristo_redentor",
+    "country": "Brasil"
+  },
+  {
+    "name": "Templo de Borobudur",
+    "height": 35,
+    "image": "borobudur",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Pirámide de Kukulkán",
+    "height": 30,
+    "image": "kukulkan_pyramid",
+    "country": "México"
   }
 ]
