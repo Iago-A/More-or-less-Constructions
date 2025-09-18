@@ -7,6 +7,8 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.animation.BounceInterpolator;
@@ -225,7 +227,7 @@ public class GameActivity extends AppCompatActivity {
 
             // Set construction data in the screen
             int resId1 = getResources().getIdentifier(image1, "drawable", getPackageName());
-            topImageView.setImageResource(resId1);
+            loadImage(topImageView, resId1);
             topNameTextView.setText(name1);
             topCountryTextView.setText(country1);
         }
@@ -238,10 +240,32 @@ public class GameActivity extends AppCompatActivity {
 
             // Set construction data in the screen
             int resId2 = getResources().getIdentifier(image2, "drawable", getPackageName());
-            bottomImageView.setImageResource(resId2);
+            loadImage(bottomImageView, resId2);
             bottomNameTextView.setText(name2);
             bottomCountryTextView.setText(country2);
         }
+    }
+
+
+    // Function necessary to reduce the resolution in large images, and therefore avoid the activity crash
+    private void loadImage(ImageView imageView, int resId) {
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true; // Only obtain dimensions
+        BitmapFactory.decodeResource(getResources(), resId, options);
+
+        int maxDim = 1024; // ancho o alto máximo
+        int inSampleSize = 1;
+
+        while ((options.outWidth / inSampleSize) > maxDim || (options.outHeight / inSampleSize) > maxDim) {
+            inSampleSize *= 2;
+        }
+
+        options.inJustDecodeBounds = false;
+        options.inSampleSize = inSampleSize;
+        options.inPreferredConfig = Bitmap.Config.RGB_565;
+
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), resId, options);
+        imageView.setImageBitmap(bitmap);
     }
 
 
