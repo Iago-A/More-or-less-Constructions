@@ -12,9 +12,21 @@
     "country": "Malasia"
   },
   {
+    "name": "Tokyo Sky Tree",
+    "height": 634,
+    "image": "tokyo_skytree",
+    "country": "Japón"
+  },
+  {
     "name": "Torre de Shanghái",
     "height": 632,
     "image": "shanghai_tower",
+    "country": "China"
+  },
+  {
+    "name": "Torre de telecomunicaciones de Cantón",
+    "height": 604,
+    "image": "canton_telecommunication_tower",
     "country": "China"
   },
   {
@@ -36,16 +48,22 @@
     "country": "Corea del Sur"
   },
   {
+    "name": "Torre CN",
+    "height": 553,
+    "image": "cn_tower",
+    "country": "Canadá"
+  },
+  {
     "name": "One World Trade Center",
     "height": 546,
     "image": "one_world_trade_center",
     "country": "Estados Unidos"
   },
   {
-    "name": "Torre CN",
-    "height": 533,
-    "image": "cn_tower",
-    "country": "Canadá"
+    "name": "Ostankino Tower",
+    "height": 537,
+    "image": "ostankino_tower",
+    "country": "Rusia"
   },
   {
     "name": "Guangzhou CTF Finance Centre",
@@ -108,6 +126,12 @@
     "country": "Vietnam"
   },
   {
+    "name": "International Land-Sea Center",
+    "height": 458,
+    "image": "international_land_sea_center",
+    "country": "China"
+  },
+  {
     "name": "Changsha IFS Tower T1",
     "height": 452,
     "image": "changsha_ifs_tower_t1",
@@ -124,6 +148,18 @@
     "height": 450,
     "image": "suzhou_ifs",
     "country": "China"
+  },
+  {
+    "name": "Zifeng Tower",
+    "height": 450,
+    "image": "zifeng_tower",
+    "country": "China"
+  },
+  {
+    "name": "The Exchange 106",
+    "height": 446,
+    "image": "the_exchange_106",
+    "country": "Malasia"
   },
   {
     "name": "Torre Willis",
@@ -144,10 +180,40 @@
     "country": "China"
   },
   {
+    "name": "111 West 57th Street",
+    "height": 435,
+    "image": "west_111_57th_street",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "One Vanderbilt",
+    "height": 427,
+    "image": "one_vanderbilt",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "432 Park Avenue",
+    "height": 426,
+    "image": "park_avenue_432",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Marina 101",
+    "height": 425,
+    "image": "marina_101",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
     "name": "Trump International Hotel",
     "height": 423,
     "image": "trump_international_hotel_and_tower",
     "country": "Estados Unidos"
+  },
+  {
+    "name": "Minying International Trade Center T2",
+    "height": 423,
+    "image": "minying_international_trade_center_t2",
+    "country": "China"
   },
   {
     "name": "Torre Jin Mao",
@@ -168,10 +234,244 @@
     "country": "Kuwait"
   },
   {
+    "name": "International Finance Centre 2",
+    "height": 412,
+    "image": "hong_kong_international_finance_centre",
+    "country": "Hong Kong"
+  },
+  {
+    "name": "LCT The Sharp Landmark Tower",
+    "height": 412,
+    "image": "lct_the_sharp_landmark_tower",
+    "country": "Corea del Sur"
+  },
+  {
+    "name": "Ningbo Center Tower 1",
+    "height": 409,
+    "image": "ningbo_center_tower_1",
+    "country": "China"
+  },
+  {
+    "name": "Guangxi China Resources Tower",
+    "height": 403,
+    "image": "guangxi_china_resources_tower",
+    "country": "China"
+  },
+  {
+    "name": "Guiyang International Financial Center T1",
+    "height": 401,
+    "image": "guiyang_international_financial_center_t1",
+    "country": "China"
+  },
+  {
+    "name": "Iconic Tower",
+    "height": 394,
+    "image": "iconic_tower",
+    "country": "Egipto"
+  },
+  {
+    "name": "China Merchants Bank Global HQ Tower",
+    "height": 393,
+    "image": "china_merchant_bank_global_hq_tower",
+    "country": "China"
+  },
+  {
+    "name": "China Resources Tower",
+    "height": 393,
+    "image": "china_resources_tower",
+    "country": "China"
+  },
+  {
+    "name": "23 Marina",
+    "height": 392,
+    "image": "marina_23",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "CITIC Plaza",
+    "height": 390,
+    "image": "citic_plaza",
+    "country": "China"
+  },
+  {
+    "name": "CITYMARK CENTRE",
+    "height": 388,
+    "image": "citymark_centre",
+    "country": "China"
+  },
+  {
+    "name": "Shum Yip Upperhills Tower 1",
+    "height": 388,
+    "image": "shum_yip_upperhills_tower_1",
+    "country": "China"
+  },
+  {
+    "name": "30 Hudson Yards",
+    "height": 387,
+    "image": "hudson_yards_30",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "PIF Tower",
+    "height": 385,
+    "image": "pif_tower",
+    "country": "Arabia Saudita"
+  },
+  {
+    "name": "Shun Hing Square",
+    "height": 384,
+    "image": "shun_hing_square",
+    "country": "China"
+  },
+  {
+    "name": "Eton Place Dalian Tower 1",
+    "height": 383,
+    "image": "eton_place_dalian_tower_1",
+    "country": "China"
+  },
+  {
+    "name": "Autograph Tower",
+    "height": 383,
+    "image": "autograph_tower",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Nanning Logan Century 1",
+    "height": 381,
+    "image": "nanning_logan_century_1",
+    "country": "China"
+  },
+  {
+    "name": "Burj Mohammed Bin Rashid",
+    "height": 381,
+    "image": "burj_mohammed_bin_rashid",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Empire State Building",
+    "height": 381 ,
+    "image": "empire_state_building",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Elite Residence",
+    "height": 380,
+    "image": "elite_residence",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "1 Corporate Avenue",
+    "height": 376,
+    "image": "one_corporate_avenue",
+    "country": "China"
+  },
+  {
+    "name": "Dabaihui Plaza",
+    "height": 376,
+    "image": "dabaihui_plaza",
+    "country": "China"
+  },
+  {
+    "name": "Central Plaza",
+    "height": 374,
+    "image": "central_plaza",
+    "country": "Hong Kong"
+  },
+  {
+    "name": "Torre Federación",
+    "height": 374,
+    "image": "federation_tower",
+    "country": "Rusia"
+  },
+  {
+    "name": "Dalian International Trade Center",
+    "height": 370,
+    "image": "dalian_international_trade_center",
+    "country": "China"
+  },
+  {
+    "name": "The Address Boulevard",
+    "height": 370,
+    "image": "the_address_boulevard",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Qingdao Hai Tian Center",
+    "height": 369,
+    "image": "qingdao_hai_tian_center",
+    "country": "China"
+  },
+  {
+    "name": "Golden Eagle Tiandi Tower A",
+    "height": 368,
+    "image": "golden_eagle_tiandi_tower_a",
+    "country": "China"
+  },
+  {
+    "name": "Riga Radio & TV Tower",
+    "height": 368,
+    "image": "riga_radio_and_tv_tower",
+    "country": "Letonia"
+  },
+  {
+    "name": "Bank of China Tower",
+    "height": 367,
+    "image": "bank_of_china_tower",
+    "country": "Hong Kong"
+  },
+  {
+    "name": "Bank of America Tower",
+    "height": 366,
+    "image": "bank_of_america_tower",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Ciel Tower",
+    "height": 364,
+    "image": "ciel_tower",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "The St. Regis Chicago",
+    "height": 363,
+    "image": "the_st_regis_chicago",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Almas Tower",
+    "height": 360,
+    "image": "almas_tower",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Marina Torch",
+    "height": 352,
+    "image": "marina_torch",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Torre de Tokyo",
+    "height": 333,
+    "image": "tokyo_tower",
+    "country": "Japón"
+  },
+  {
     "name": "Torre Eiffel",
-    "height": 300,
+    "height": 330,
     "image": "eiffel_tower",
     "country": "Francia"
+  },
+  {
+    "name": "Varso Tower",
+    "height": 310,
+    "image": "varso_tower",
+    "country": "Polonia"
+  },
+  {
+    "name": "The Shard",
+    "height": 310,
+    "image": "the_shard",
+    "country": "Reino Unido"
   },
   {
     "name": "Space Needle de Seattle",
@@ -213,7 +513,7 @@
     "name": "Estatua de la Libertad",
     "height": 93,
     "image": "statue_of_liberty",
-    "country": "EStados Unidos"
+    "country": "Estados Unidos"
   },
   {
     "name": "Catedral de Notre Dame",
