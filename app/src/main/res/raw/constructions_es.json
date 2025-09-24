@@ -36,7 +36,7 @@
     "country": "Arabia Saudita"
   },
   {
-    "name": "Ping An Finance Center",
+    "name": "Shenzhen Ping An Finance Center",
     "height": 599,
     "image": "ping_an_finance_center",
     "country": "China"
@@ -234,7 +234,7 @@
     "country": "Kuwait"
   },
   {
-    "name": "International Finance Centre 2",
+    "name": "Two International Finance Centre",
     "height": 412,
     "image": "hong_kong_international_finance_centre",
     "country": "Hong Kong"
@@ -444,10 +444,148 @@
     "country": "Emiratos Árabes Unidos"
   },
   {
+    "name": "Jinan Ping An Finance Center",
+    "height": 360,
+    "image": "jinan_ping_an_finance_center_tower",
+    "country": "China"
+  },
+  {
+    "name": "Huiyun Center",
+    "height": 359,
+    "image": "huiyun_center",
+    "country": "China"
+  },
+  {
+    "name": "Hanking Center",
+    "height": 359,
+    "image": "hanking_center",
+    "country": "China"
+  },
+  {
+    "name": "Gevora Hotel",
+    "height": 356,
+    "image": "gevora_hotel",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Il Primo Tower",
+    "height": 356,
+    "image": "il_primo_tower",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Galaxy Yabao Twin Towers",
+    "height": 356,
+    "image": "galaxy_yabao_twin_towers",
+    "country": "China"
+  },
+  {
+    "name": "JW Marriott Marquis Hotel Dubai Towers",
+    "height": 355,
+    "image": "jw_marriott_marquis_hotel_dubai_towers",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Emirates Towers",
+    "height": 355,
+    "image": "emirates_towers",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Raffles City Chongqing",
+    "height": 354,
+    "image": "raffles_city_chongqing",
+    "country": "China"
+  },
+  {
+    "name": "OKO - Residential Tower",
+    "height": 354,
+    "image": "oko_residential_tower",
+    "country": "Rusia"
+  },
+  {
+    "name": "Central Bank of the Republic of Turkey",
+    "height": 354,
+    "image": "central_bank_of_the_republic_of_turkey",
+    "country": "Turquía"
+  },
+  {
     "name": "Marina Torch",
     "height": 352,
     "image": "marina_torch",
     "country": "Emiratos Árabes Unidos"
+  },
+  {
+    "name": "Forum 66 Tower 1",
+    "height": 351,
+    "image": "",
+    "country": "China"
+  },
+  {
+    "name": "The Pinnacle",
+    "height": 350,
+    "image": "",
+    "country": "China"
+  },
+  {
+    "name": "Glory Xi’an International Financial Center",
+    "height": 350,
+    "image": "",
+    "country": "China"
+  },
+  {
+    "name": "Spring City 66",
+    "height": 349,
+    "image": "",
+    "country": "China"
+  },
+  {
+    "name": "85 Sky Tower",
+    "height": 348,
+    "image": "",
+    "country": "Taiwán"
+  },
+  {
+    "name": "Aon Center",
+    "height": 346,
+    "image": "",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "The Center",
+    "height": 346,
+    "image": "",
+    "country": "Hong Kong"
+  },
+  {
+    "name": "Neva Towers 2",
+    "height": 345,
+    "image": "",
+    "country": "Rusia"
+  },
+  {
+    "name": "Xiamen Cross Strait Financial Centre",
+    "height": 344,
+    "image": "",
+    "country": "China"
+  },
+  {
+    "name": "875 North Michigan Avenue",
+    "height": 344,
+    "image": "",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Shimao Global Financial Center",
+    "height": 343,
+    "image": "",
+    "country": "China"
+  },
+  {
+    "name": "Four Seasons Place",
+    "height": 343,
+    "image": "",
+    "country": "Malasia"
   },
   {
     "name": "Torre de Tokyo",
