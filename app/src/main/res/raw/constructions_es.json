@@ -518,73 +518,73 @@
   {
     "name": "Forum 66 Tower 1",
     "height": 351,
-    "image": "",
+    "image": "forum_66_tower_1",
     "country": "China"
   },
   {
     "name": "The Pinnacle",
     "height": 350,
-    "image": "",
+    "image": "the_pinnacle",
     "country": "China"
   },
   {
     "name": "Glory Xi’an International Financial Center",
     "height": 350,
-    "image": "",
+    "image": "glory_xi_an_international_financial_center",
     "country": "China"
   },
   {
     "name": "Spring City 66",
     "height": 349,
-    "image": "",
+    "image": "spring_city_66",
     "country": "China"
   },
   {
     "name": "85 Sky Tower",
     "height": 348,
-    "image": "",
+    "image": "sky_tower_85",
     "country": "Taiwán"
   },
   {
     "name": "Aon Center",
     "height": 346,
-    "image": "",
+    "image": "aon_center",
     "country": "Estados Unidos"
   },
   {
     "name": "The Center",
     "height": 346,
-    "image": "",
+    "image": "the_center",
     "country": "Hong Kong"
   },
   {
     "name": "Neva Towers 2",
     "height": 345,
-    "image": "",
+    "image": "neva_towers_2",
     "country": "Rusia"
   },
   {
     "name": "Xiamen Cross Strait Financial Centre",
     "height": 344,
-    "image": "",
+    "image": "xiamen_cross_strait_financial_centre",
     "country": "China"
   },
   {
     "name": "875 North Michigan Avenue",
     "height": 344,
-    "image": "",
+    "image": "north_michigan_avenue_875",
     "country": "Estados Unidos"
   },
   {
     "name": "Shimao Global Financial Center",
     "height": 343,
-    "image": "",
+    "image": "shimao_global_financial_center",
     "country": "China"
   },
   {
     "name": "Four Seasons Place",
     "height": 343,
-    "image": "",
+    "image": "four_seasons_place",
     "country": "Malasia"
   },
   {
@@ -600,6 +600,42 @@
     "country": "Francia"
   },
   {
+    "name": "MahaNakhon",
+    "height": 320,
+    "image": "mahanakhon",
+    "country": "Tailandia"
+  },
+  {
+    "name": "Australia 108",
+    "height": 319,
+    "image": "australia_108",
+    "country": "Australia"
+  },
+  {
+    "name": "Jiuzhou International Tower",
+    "height": 318,
+    "image": "jiuzhou_international_tower",
+    "country": "China"
+  },
+  {
+    "name": "Fanya International Finance Buildings",
+    "height": 318,
+    "image": "fanya_international_finance_buildings",
+    "country": "China"
+  },
+  {
+    "name": "Magnolias Waterfront Residences Tower 1",
+    "height": 315,
+    "image": "magnolias_waterfront_residences_tower_1",
+    "country": "Tailandia"
+  },
+  {
+    "name": "The Spiral",
+    "height": 314,
+    "image": "the_spiral",
+    "country": "Estados Unidos"
+  },
+  {
     "name": "Varso Tower",
     "height": 310,
     "image": "varso_tower",
@@ -610,6 +646,12 @@
     "height": 310,
     "image": "the_shard",
     "country": "Reino Unido"
+  },
+  {
+    "name": "Xinchu Qingtian Plaza Tower 2",
+    "height": 286,
+    "image": "xinchu_qingtian_plaza_2",
+    "country": "China"
   },
   {
     "name": "Space Needle de Seattle",
