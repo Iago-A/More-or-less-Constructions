@@ -588,6 +588,24 @@
     "country": "Malasia"
   },
   {
+    "name": "Mercury City Tower",
+    "height": 339,
+    "image": "mercury_city_tower",
+    "country": "Rusia"
+  },
+  {
+    "name": "Wilshire Grand Center",
+    "height": 336,
+    "image": "wilshire_grand_center",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Rose Rayhaan by Rotana",
+    "height": 333,
+    "image": "rose_rayhaan_by_rotana",
+    "country": "Emiratos Árabes Unidos"
+  },
+  {
     "name": "Torre de Tokyo",
     "height": 333,
     "image": "tokyo_tower",
@@ -598,6 +616,18 @@
     "height": 330,
     "image": "eiffel_tower",
     "country": "Francia"
+  },
+  {
+    "name": "Mori JP Tower",
+    "height": 327,
+    "image": "mori_jp_tower",
+    "country": "Japón"
+  },
+  {
+    "name": "Q1 Tower",
+    "height": 323,
+    "image": "q1_tower",
+    "country": "Australia"
   },
   {
     "name": "MahaNakhon",
@@ -636,6 +666,12 @@
     "country": "Estados Unidos"
   },
   {
+    "name": "Bank of America Plaza",
+    "height": 312,
+    "image": "bank_of_america_plaza",
+    "country": "Estados Unidos"
+  },
+  {
     "name": "Varso Tower",
     "height": 310,
     "image": "varso_tower",
@@ -648,10 +684,94 @@
     "country": "Reino Unido"
   },
   {
+    "name": "Eureka Tower",
+    "height": 301,
+    "image": "eureka_tower",
+    "country": "Australia"
+  },
+  {
+    "name": "Abeno Harukas",
+    "height": 300,
+    "image": "abeno_harukas",
+    "country": "Japón"
+  },
+  {
+    "name": "Torre Costanera",
+    "height": 300,
+    "image": "torre_costanera",
+    "country": "Chile"
+  },
+  {
+    "name": "Commerzbank Tower",
+    "height": 300,
+    "image": "commerzbank_tower",
+    "country": "Alemania"
+  },
+  {
     "name": "Xinchu Qingtian Plaza Tower 2",
     "height": 286,
     "image": "xinchu_qingtian_plaza_2",
     "country": "China"
+  },
+  {
+    "name": "Torre KOI",
+    "height": 279,
+    "image": "torre_koi",
+    "country": "México"
+  },
+  {
+    "name": "Transamerica Pyramid",
+    "height": 260,
+    "image": "transamerica_pyramid",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "MesseTurm",
+    "height": 257,
+    "image": "messeturm",
+    "country": "Alemania"
+  },
+  {
+    "name": "Torre de Cristal",
+    "height": 249,
+    "image": "torre_de_cristal",
+    "country": "España"
+  },
+  {
+    "name": "Torre Cepsa",
+    "height": 248,
+    "image": "torre_cepsa",
+    "country": "España"
+  },
+  {
+    "name": "Torre Reforma",
+    "height": 246,
+    "image": "torre_reforma",
+    "country": "México"
+  },
+  {
+    "name": "Torre PwC",
+    "height": 236,
+    "image": "torre_pwc",
+    "country": "España"
+  },
+  {
+    "name": "Tour First",
+    "height": 231,
+    "image": "tour_first",
+    "country": "Francia"
+  },
+  {
+    "name": "Torre Emperador Castellana",
+    "height": 224,
+    "image": "torre_emperador_castellana",
+    "country": "España"
+  },
+  {
+    "name": "Turning Torso",
+    "height": 190,
+    "image": "turning_torso",
+    "country": "Suecia"
   },
   {
     "name": "Space Needle de Seattle",
