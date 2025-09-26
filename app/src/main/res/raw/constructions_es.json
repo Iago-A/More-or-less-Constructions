@@ -744,6 +744,12 @@
     "country": "Alemania"
   },
   {
+    "name": "Aspire Tower",
+    "height": 300,
+    "image": "aspire_tower",
+    "country": "Qatar"
+  },
+  {
     "name": "Gama Tower",
     "height": 297,
     "image": "gama_tower",
@@ -828,6 +834,12 @@
     "country": "Indonesia"
   },
   {
+    "name": "Bitexco Financial Tower",
+    "height": 264,
+    "image": "bitexco_financial_tower",
+    "country": "Vietnam"
+  },
+  {
     "name": "Transamerica Pyramid",
     "height": 260,
     "image": "transamerica_pyramid",
@@ -858,10 +870,34 @@
     "country": "México"
   },
   {
+    "name": "Palm Towers",
+    "height": 245,
+    "image": "palm_towers",
+    "country": "Qatar"
+  },
+  {
     "name": "Boreal Tower",
     "height": 241,
     "image": "boreal_tower",
     "country": "Brasil"
+  },
+  {
+    "name": "Altair",
+    "height": 240,
+    "image": "altair",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "Doha Tower",
+    "height": 238,
+    "image": "doha_tower",
+    "country": "Qatar"
+  },
+  {
+    "name": "Azrieli Sarona Tower",
+    "height": 238,
+    "image": "azrieli_sarona_tower",
+    "country": "Israel"
   },
   {
     "name": "Torre PwC",
@@ -876,10 +912,22 @@
     "country": "Brasil"
   },
   {
+    "name": "Torre F&F",
+    "height": 233,
+    "image": "f_and_f_tower",
+    "country": "Panamá"
+  },
+  {
     "name": "Tour First",
     "height": 231,
     "image": "tour_first",
     "country": "Francia"
+  },
+  {
+    "name": "Palace of Culture and Science",
+    "height": 231,
+    "image": "palace_of_culture_and_science",
+    "country": "Polonia"
   },
   {
     "name": "Torre Emperador Castellana",
@@ -888,16 +936,88 @@
     "country": "España"
   },
   {
+    "name": "Olszynki Park W",
+    "height": 220,
+    "image": "olszynki_park_w",
+    "country": "Polonia"
+  },
+  {
+    "name": "BD Bacatá Torre Sur",
+    "height": 216,
+    "image": "bd_bacata_torre_sur",
+    "country": "Colombia"
+  },
+  {
+    "name": "Torres de Katara",
+    "height": 211,
+    "image": "katara_towers",
+    "country": "Qatar"
+  },
+  {
+    "name": "Nimrodi Tower",
+    "height": 211,
+    "image": "nimrodi_tower",
+    "country": "Israel"
+  },
+  {
+    "name": "Vietcombank Tower",
+    "height": 206,
+    "image": "vietcombank_tower",
+    "country": "Vietnam"
+  },
+  {
+    "name": "Diamond Flower Tower",
+    "height": 199,
+    "image": "diamond_flower_tower",
+    "country": "Vietnam"
+  },
+  {
+    "name": "SOCAR Tower",
+    "height": 196,
+    "image": "socar_tower",
+    "country": "Azerbaiyán "
+  },
+  {
     "name": "Turning Torso",
     "height": 190,
     "image": "turning_torso",
     "country": "Suecia"
   },
   {
+    "name": "United Tower",
+    "height": 189,
+    "image": "united_tower",
+    "country": "Baréin"
+  },
+  {
     "name": "Space Needle de Seattle",
     "height": 184,
     "image": "space_needle",
     "country": "Estados Unidos"
+  },
+  {
+    "name": "Torre de Cali",
+    "height": 183,
+    "image": "torre_de_cali",
+    "country": "Colombia"
+  },
+  {
+    "name": "Flame Towers",
+    "height": 182,
+    "image": "flame_towers",
+    "country": "Azerbaiyán"
+  },
+  {
+    "name": "Kim Chaek University of Technology Towers",
+    "height": 165,
+    "image": "kim_chaek_university_of_technology_towers",
+    "country": "Corea del Norte"
+  },
+  {
+    "name": "Torre Iberdrola",
+    "height": 165,
+    "image": "torre_iberdrola",
+    "country": "España"
   },
   {
     "name": "Pirámide de Keops",
