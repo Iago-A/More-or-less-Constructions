@@ -618,6 +618,18 @@
     "country": "Francia"
   },
   {
+    "name": "Hotel Ryugyong",
+    "height": 330,
+    "image": "hotel_ryugyong",
+    "country": "Corea del Norte"
+  },
+  {
+    "name": "Baiyoke Tower II",
+    "height": 328,
+    "image": "baiyoke_tower_2",
+    "country": "Tailandia"
+  },
+  {
     "name": "Mori JP Tower",
     "height": 327,
     "image": "mori_jp_tower",
@@ -628,6 +640,12 @@
     "height": 323,
     "image": "q1_tower",
     "country": "Australia"
+  },
+  {
+    "name": "Parc1 Tower I",
+    "height": 322,
+    "image": "parc1_tower_1",
+    "country": "Corea del Sur"
   },
   {
     "name": "MahaNakhon",
@@ -684,10 +702,28 @@
     "country": "Reino Unido"
   },
   {
+    "name": "Northeast Asia Trade Tower",
+    "height": 305,
+    "image": "northeast_asia_trade_tower",
+    "country": "Corea del Sur"
+  },
+  {
     "name": "Eureka Tower",
     "height": 301,
     "image": "eureka_tower",
     "country": "Australia"
+  },
+  {
+    "name": "Luminary Tower",
+    "height": 301,
+    "image": "luminary_tower",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Lokhandwala Minerva",
+    "height": 301,
+    "image": "lokhandwala_minerva",
+    "country": "India"
   },
   {
     "name": "Abeno Harukas",
@@ -708,16 +744,88 @@
     "country": "Alemania"
   },
   {
+    "name": "Gama Tower",
+    "height": 297,
+    "image": "gama_tower",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Landmark Tower",
+    "height": 296,
+    "image": "landmark_tower",
+    "country": "Japón"
+  },
+  {
+    "name": "Yachthouse by Pininfarina Towers",
+    "height": 294,
+    "image": "yachthouse_by_pininfarina_towers",
+    "country": "Brasil"
+  },
+  {
+    "name": "One Tower",
+    "height": 290,
+    "image": "one_tower",
+    "country": "Brasil"
+  },
+  {
     "name": "Xinchu Qingtian Plaza Tower 2",
     "height": 286,
     "image": "xinchu_qingtian_plaza_2",
     "country": "China"
   },
   {
+    "name": "Guoco Tower",
+    "height": 284,
+    "image": "guoco_tower",
+    "country": "Singapur"
+  },
+  {
+    "name": "JW Marriott Panama",
+    "height": 284,
+    "image": "jw_marriott_panama",
+    "country": "Panamá"
+  },
+  {
+    "name": "United Overseas Bank Plaza One",
+    "height": 280,
+    "image": "united_overseas_bank_plaza_one",
+    "country": "Singapur"
+  },
+  {
+    "name": "World One",
+    "height": 280,
+    "image": "world_one",
+    "country": "India"
+  },
+  {
     "name": "Torre KOI",
     "height": 279,
     "image": "torre_koi",
     "country": "México"
+  },
+  {
+    "name": "Republic Plaza",
+    "height": 276,
+    "image": "republic_plaza",
+    "country": "Singapur"
+  },
+  {
+    "name": "Bicsa Financial Center",
+    "height": 267,
+    "image": "bicsa_financial_center",
+    "country": "Panamá"
+  },
+  {
+    "name": "Toranomon Hills Station Tower",
+    "height": 266,
+    "image": "toranomon_hills_station_tower",
+    "country": "Japón"
+  },
+  {
+    "name": "Jakarta Mori Tower",
+    "height": 266,
+    "image": "jakarta_mori_tower",
+    "country": "Indonesia"
   },
   {
     "name": "Transamerica Pyramid",
@@ -750,10 +858,22 @@
     "country": "México"
   },
   {
+    "name": "Boreal Tower",
+    "height": 241,
+    "image": "boreal_tower",
+    "country": "Brasil"
+  },
+  {
     "name": "Torre PwC",
     "height": 236,
     "image": "torre_pwc",
     "country": "España"
+  },
+  {
+    "name": "Infinity Coast Tower",
+    "height": 235,
+    "image": "infinity_coast_tower",
+    "country": "Brasil"
   },
   {
     "name": "Tour First",
