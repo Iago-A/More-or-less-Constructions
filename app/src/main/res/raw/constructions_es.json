@@ -930,6 +930,18 @@
     "country": "Polonia"
   },
   {
+    "name": "Shangri-La Cambodia",
+    "height": 228,
+    "image": "shangrila_cambodia",
+    "country": "Camboya"
+  },
+  {
+    "name": "The Leonardo",
+    "height": 228,
+    "image": "the_leonardo",
+    "country": "Sudáfrica"
+  },
+  {
     "name": "Torre Emperador Castellana",
     "height": 224,
     "image": "torre_emperador_castellana",
@@ -1008,6 +1020,18 @@
     "country": "Azerbaiyán"
   },
   {
+    "name": "Generali Tower",
+    "height": 177,
+    "image": "generali_tower",
+    "country": "Italia"
+  },
+  {
+    "name": "Mole Antonelliana",
+    "height": 166,
+    "image": "mole_antonelliana",
+    "country": "Italia"
+  },
+  {
     "name": "Kim Chaek University of Technology Towers",
     "height": 165,
     "image": "kim_chaek_university_of_technology_towers",
@@ -1018,6 +1042,48 @@
     "height": 165,
     "image": "torre_iberdrola",
     "country": "España"
+  },
+  {
+    "name": "Palazzo Lombardia",
+    "height": 161,
+    "image": "palazzo_lombardia",
+    "country": "Italia"
+  },
+  {
+    "name": "Montevideo",
+    "height": 152,
+    "image": "montevideo",
+    "country": "Holanda"
+  },
+  {
+    "name": "Pearl Dawn",
+    "height": 152,
+    "image": "pearl_dawn",
+    "country": "Sudáfrica"
+  },
+  {
+    "name": "De Rotterdam",
+    "height": 151,
+    "image": "de_rotterdam",
+    "country": "Holanda"
+  },
+  {
+    "name": "Millennium Tower",
+    "height": 149,
+    "image": "millennium_tower",
+    "country": "Holanda"
+  },
+  {
+    "name": "Mwalimu Nyerere Foundation Square",
+    "height": 154,
+    "image": "mwalimu_nyerere_foundation_square",
+    "country": "Tanzania"
+  },
+  {
+    "name": "Solaria",
+    "height": 143,
+    "image": "solaria",
+    "country": "Italia"
   },
   {
     "name": "Pirámide de Keops",
@@ -1038,6 +1104,18 @@
     "country": "Egipto"
   },
   {
+    "name": "Prism Tower",
+    "height": 133,
+    "image": "prism_tower",
+    "country": "Kenia"
+  },
+  {
+    "name": "Ayia Napa Marina East Tower",
+    "height": 114,
+    "image": "ayia_napa_marina_east_tower",
+    "country": "Chipre"
+  },
+  {
     "name": "Hotel Luxor",
     "height": 111,
     "image": "luxor_hotel",
@@ -1048,6 +1126,24 @@
     "height": 104,
     "image": "red_pyramid",
     "country": "Egipto"
+  },
+  {
+    "name": "Campanile de San Marcos",
+    "height": 99,
+    "image": "campanile_de_san_marcos",
+    "country": "Italia"
+  },
+  {
+    "name": "Big Ben",
+    "height": 96,
+    "image": "big_ben",
+    "country": "Reino Unido"
+  },
+  {
+    "name": "Ayuntamiento de Bruselas",
+    "height": 96,
+    "image": "brussels_city_hall",
+    "country": "Bélgica"
   },
   {
     "name": "Estatua de la Libertad",
@@ -1062,10 +1158,28 @@
     "country": "Francia"
   },
   {
+    "name": "Campanile de Giotto",
+    "height": 85,
+    "image": "campanile_giotto",
+    "country": "Italia"
+  },
+  {
     "name": "Taj Mahal",
     "height": 73,
     "image": "taj_mahal",
     "country": "India"
+  },
+  {
+    "name": "Palacio de Versalles",
+    "height": 73,
+    "image": "versalles_palace",
+    "country": "Francia"
+  },
+  {
+    "name": "Torre Spasskaya",
+    "height": 71,
+    "image": "",
+    "country": "Rusia"
   },
   {
     "name": "Ópera de Sídney",
@@ -1078,6 +1192,12 @@
     "height": 67,
     "image": "golden_gate",
     "country": "Estados Unidos"
+  },
+  {
+    "name": "Castillo de Neuschwanstein",
+    "height": 65,
+    "image": "neuschwanstein_castle",
+    "country": "Alemania"
   },
   {
     "name": "Templo de  Angkor Wat",
