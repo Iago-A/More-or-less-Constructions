@@ -942,6 +942,12 @@
     "country": "Sudáfrica"
   },
   {
+    "name": "Puente Golden Gate",
+    "height": 227,
+    "image": "golden_gate",
+    "country": "Estados Unidos"
+  },
+  {
     "name": "Torre Emperador Castellana",
     "height": 224,
     "image": "torre_emperador_castellana",
@@ -990,6 +996,12 @@
     "country": "Azerbaiyán "
   },
   {
+    "name": "Arco Gateway",
+    "height": 192,
+    "image": "gateway_arch",
+    "country": "Estados Unidos"
+  },
+  {
     "name": "Turning Torso",
     "height": 190,
     "image": "turning_torso",
@@ -1026,6 +1038,18 @@
     "country": "Italia"
   },
   {
+    "name": "Monumento a Washington",
+    "height": 169,
+    "image": "washington_monument",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Ayuntamiento de Filadelfia",
+    "height": 167,
+    "image": "philadelphia_city_hall",
+    "country": "Estados Unidos"
+  },
+  {
     "name": "Mole Antonelliana",
     "height": 166,
     "image": "mole_antonelliana",
@@ -1044,10 +1068,28 @@
     "country": "España"
   },
   {
+    "name": "Ulmer Münster",
+    "height": 162,
+    "image": "ulmer_munster",
+    "country": "Alemania"
+  },
+  {
     "name": "Palazzo Lombardia",
     "height": 161,
     "image": "palazzo_lombardia",
     "country": "Italia"
+  },
+  {
+    "name": "Catedral de Colonia",
+    "height": 157,
+    "image": "cologne_cathedral",
+    "country": "Alemania"
+  },
+  {
+    "name": "Puente Vasco da Gama",
+    "height": 155,
+    "image": "vasco_da_gama_bridge",
+    "country": "Portugal"
   },
   {
     "name": "Montevideo",
@@ -1068,6 +1110,12 @@
     "country": "Holanda"
   },
   {
+    "name": "Catedral de Ruán",
+    "height": 151,
+    "image": "rouen_cathedral",
+    "country": "Francia"
+  },
+  {
     "name": "Millennium Tower",
     "height": 149,
     "image": "millennium_tower",
@@ -1075,7 +1123,7 @@
   },
   {
     "name": "Mwalimu Nyerere Foundation Square",
-    "height": 154,
+    "height": 145,
     "image": "mwalimu_nyerere_foundation_square",
     "country": "Tanzania"
   },
@@ -1104,10 +1152,28 @@
     "country": "Egipto"
   },
   {
+    "name": "Puente de la bahía de Sídney",
+    "height": 134,
+    "image": "sydney_harbour_bridge",
+    "country": "Australia"
+  },
+  {
     "name": "Prism Tower",
     "height": 133,
     "image": "prism_tower",
     "country": "Kenia"
+  },
+  {
+    "name": "Catedral de Amberes",
+    "height": 123,
+    "image": "church_of_our_lady_antwerpen",
+    "country": "Bélgica"
+  },
+  {
+    "name": "Catedral de Salisbury",
+    "height": 123,
+    "image": "salisbury_cathedral",
+    "country": "Reino Unido"
   },
   {
     "name": "Ayia Napa Marina East Tower",
@@ -1116,16 +1182,40 @@
     "country": "Chipre"
   },
   {
+    "name": "Catedral de Chartres",
+    "height": 113,
+    "image": "chartres_cathedral",
+    "country": "Francia"
+  },
+  {
     "name": "Hotel Luxor",
     "height": 111,
     "image": "luxor_hotel",
     "country": "Estados Unidos"
   },
   {
+    "name": "Catedral de San Pablo",
+    "height": 111,
+    "image": "st_paul_cathedral",
+    "country": "Reino Unido"
+  },
+  {
+    "name": "Catedral de Sevilla",
+    "height": 105,
+    "image": "catedral_sevilla",
+    "country": "España"
+  },
+  {
     "name": "Pirámide roja",
     "height": 104,
     "image": "red_pyramid",
     "country": "Egipto"
+  },
+  {
+    "name": "Iglesia de Santa María",
+    "height": 104,
+    "image": "st_mary_church",
+    "country": "Alemania"
   },
   {
     "name": "Campanile de San Marcos",
@@ -1158,10 +1248,28 @@
     "country": "Francia"
   },
   {
+    "name": "Catedral de Burgos",
+    "height": 88,
+    "image": "catedral_burgos",
+    "country": "España"
+  },
+  {
     "name": "Campanile de Giotto",
     "height": 85,
     "image": "campanile_giotto",
     "country": "Italia"
+  },
+  {
+    "name": "Estatua de la Madre Patria",
+    "height": 85,
+    "image": "statue_of_the_motherland",
+    "country": "Rusia"
+  },
+  {
+    "name": "Catedral de Santiago de Compostela",
+    "height": 75,
+    "image": "catedral_santiago_de_compostela",
+    "country": "España"
   },
   {
     "name": "Taj Mahal",
@@ -1178,20 +1286,20 @@
   {
     "name": "Torre Spasskaya",
     "height": 71,
-    "image": "",
+    "image": "spasskaya_tower",
     "country": "Rusia"
+  },
+  {
+    "name": "Catedral de León",
+    "height": 68,
+    "image": "catedral_de_leon",
+    "country": "España"
   },
   {
     "name": "Ópera de Sídney",
     "height": 67,
     "image": "sydney_opera_house",
     "country": "Australia"
-  },
-  {
-    "name": "Puente Golden Gate",
-    "height": 67,
-    "image": "golden_gate",
-    "country": "Estados Unidos"
   },
   {
     "name": "Castillo de Neuschwanstein",
@@ -1212,6 +1320,12 @@
     "country": "México"
   },
   {
+    "name": "Catedral de San Basilio",
+    "height": 65,
+    "image": "saint_basil_cathedral",
+    "country": "Rusia"
+  },
+  {
     "name": "Pirámide de Micerino",
     "height": 61,
     "image": "micerino_pyramid",
@@ -1228,6 +1342,12 @@
     "height": 57,
     "image": "pisa_tower",
     "country": "Italia"
+  },
+  {
+    "name": "Cristo Rey de Świebodzin",
+    "height": 52,
+    "image": "christ_the_king_of_swiebodzin",
+    "country": "Polonia"
   },
   {
     "name": "Coliseo Romano",
