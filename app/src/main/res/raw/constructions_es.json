@@ -588,6 +588,12 @@
     "country": "Malasia"
   },
   {
+    "name": "Puente de Millau",
+    "height": 343,
+    "image": "millau_bridge",
+    "country": "Francia"
+  },
+  {
     "name": "Mercury City Tower",
     "height": 339,
     "image": "mercury_city_tower",
@@ -648,6 +654,18 @@
     "country": "Corea del Sur"
   },
   {
+    "name": "Puente Yavuz Sultan Selim",
+    "height": 322,
+    "image": "yavuz_sultan_selim_bridge",
+    "country": "Turquía"
+  },
+  {
+    "name": "Puente Russky",
+    "height": 321,
+    "image": "russky_bridge",
+    "country": "Rusia"
+  },
+  {
     "name": "MahaNakhon",
     "height": 320,
     "image": "mahanakhon",
@@ -702,6 +720,12 @@
     "country": "Reino Unido"
   },
   {
+    "name": "Puente Sutong",
+    "height": 306,
+    "image": "sutong_bridge",
+    "country": "China"
+  },
+  {
     "name": "Northeast Asia Trade Tower",
     "height": 305,
     "image": "northeast_asia_trade_tower",
@@ -750,10 +774,22 @@
     "country": "Qatar"
   },
   {
+    "name": "Puente Stonecutters",
+    "height": 298,
+    "image": "stonecutters_bridge",
+    "country": "Hong Kong"
+  },
+  {
     "name": "Gama Tower",
     "height": 297,
     "image": "gama_tower",
     "country": "Indonesia"
+  },
+  {
+    "name": "Puente de Akashi-Kaikyo",
+    "height": 297,
+    "image": "akashi_kaikyo_bridge",
+    "country": "Japón"
   },
   {
     "name": "Landmark Tower",
@@ -834,6 +870,12 @@
     "country": "Indonesia"
   },
   {
+    "name": "Mezquita Djamaa el Djazaïr",
+    "height": 265,
+    "image": "djamaa_el_djazair_mosque",
+    "country": "Argelia"
+  },
+  {
     "name": "Bitexco Financial Tower",
     "height": 264,
     "image": "bitexco_financial_tower",
@@ -850,6 +892,12 @@
     "height": 257,
     "image": "messeturm",
     "country": "Alemania"
+  },
+  {
+    "name": "Puente Great Belt East",
+    "height": 254,
+    "image": "great_belt_bridge",
+    "country": "Dinamarca"
   },
   {
     "name": "Torre de Cristal",
@@ -886,6 +934,12 @@
     "height": 240,
     "image": "altair",
     "country": "Sri Lanka"
+  },
+  {
+    "name": "Estatua de la Unidad",
+    "height": 240,
+    "image": "statue_of_unity",
+    "country": "India"
   },
   {
     "name": "Doha Tower",
@@ -976,6 +1030,18 @@
     "height": 211,
     "image": "nimrodi_tower",
     "country": "Israel"
+  },
+  {
+    "name": "Mezquita Hassan II",
+    "height": 210,
+    "image": "hassan_ii_mosque",
+    "country": "Marruecos"
+  },
+  {
+    "name": "Spring Temple Buddha",
+    "height": 208,
+    "image": "spring_temple_buddha",
+    "country": "China"
   },
   {
     "name": "Vietcombank Tower",
@@ -1152,6 +1218,12 @@
     "country": "Egipto"
   },
   {
+    "name": "Catedral de San Esteban",
+    "height": 136,
+    "image": "st_stephen_cathedral",
+    "country": "Austria"
+  },
+  {
     "name": "Puente de la bahía de Sídney",
     "height": 134,
     "image": "sydney_harbour_bridge",
@@ -1200,10 +1272,22 @@
     "country": "Reino Unido"
   },
   {
+    "name": "Catedral de Milán",
+    "height": 108,
+    "image": "cathedral_of_milan",
+    "country": "Italia"
+  },
+  {
     "name": "Catedral de Sevilla",
     "height": 105,
     "image": "catedral_sevilla",
     "country": "España"
+  },
+  {
+    "name": "Shwedagon Pagoda",
+    "height": 105,
+    "image": "shwedagon_pagoda",
+    "country": "Birmania"
   },
   {
     "name": "Pirámide roja",
@@ -1216,6 +1300,24 @@
     "height": 104,
     "image": "st_mary_church",
     "country": "Alemania"
+  },
+  {
+    "name": "Mezquita de Nabawi",
+    "height": 104,
+    "image": "nabawi_mosque",
+    "country": "Arabia Saudita"
+  },
+  {
+    "name": "Catedral de San Patricio",
+    "height": 103,
+    "image": "st_patricks_cathedral",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Atomium",
+    "height": 102,
+    "image": "atomium",
+    "country": "Bélgica"
   },
   {
     "name": "Campanile de San Marcos",
@@ -1264,6 +1366,18 @@
     "height": 85,
     "image": "statue_of_the_motherland",
     "country": "Rusia"
+  },
+  {
+    "name": "Puente de Brooklyn",
+    "height": 84,
+    "image": "brooklyn_bridge",
+    "country": "Estados Unidos"
+  },
+  {
+    "name": "Castillo del Alcázar de Segovia",
+    "height": 80,
+    "image": "castillo_del_alcazar_de_segovia",
+    "country": "España"
   },
   {
     "name": "Catedral de Santiago de Compostela",
@@ -1360,6 +1474,12 @@
     "height": 43,
     "image": "moon_pyramid",
     "country": "México"
+  },
+  {
+    "name": "Templo del Loto",
+    "height": 40,
+    "image": "lotus_temple",
+    "country": "India"
   },
   {
     "name": "Cristo Redentor",
