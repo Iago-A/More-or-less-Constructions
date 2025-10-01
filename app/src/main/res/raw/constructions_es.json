@@ -61,7 +61,7 @@
   },
   {
     "name": "Ostankino Tower",
-    "height": 537,
+    "height": 540,
     "image": "ostankino_tower",
     "country": "Rusia"
   },
@@ -112,6 +112,12 @@
     "height": 472,
     "image": "central_park_tower",
     "country": "Estados Unidos"
+  },
+  {
+    "name": "Torre de Televisión Oriental Pearl",
+    "height": 468,
+    "image": "oriental_pearl_television_tower",
+    "country": "China"
   },
   {
     "name": "Lakhta Center",
@@ -186,6 +192,12 @@
     "country": "Estados Unidos"
   },
   {
+    "name": "Torre de telecomunicaciones de Milad",
+    "height": 435,
+    "image": "milad_telecomm_tower",
+    "country": "Irán"
+  },
+  {
     "name": "One Vanderbilt",
     "height": 427,
     "image": "one_vanderbilt",
@@ -222,6 +234,18 @@
     "country": "China"
   },
   {
+    "name": "Menara Kuala Lumpur",
+    "height": 420,
+    "image": "menara_kuala_lumpur",
+    "country": "Malasia"
+  },
+  {
+    "name": "Torre de radio y TV de Tianjin",
+    "height": 415,
+    "image": "tianjin_radio_and_tv_tower",
+    "country": "China"
+  },
+  {
     "name": "Torre Princess",
     "height": 413,
     "image": "princess_tower",
@@ -244,6 +268,12 @@
     "height": 412,
     "image": "lct_the_sharp_landmark_tower",
     "country": "Corea del Sur"
+  },
+  {
+    "name": "Torre de radio y TV central",
+    "height": 411,
+    "image": "central_radio_and_tv_tower",
+    "country": "China"
   },
   {
     "name": "Ningbo Center Tower 1",
@@ -306,6 +336,12 @@
     "country": "China"
   },
   {
+    "name": "Torre de radio y televisión de la provincial de Henan",
+    "height": 388,
+    "image": "henan_province_radio_and_television_tower",
+    "country": "China"
+  },
+  {
     "name": "30 Hudson Yards",
     "height": 387,
     "image": "hudson_yards_30",
@@ -316,6 +352,12 @@
     "height": 385,
     "image": "pif_tower",
     "country": "Arabia Saudita"
+  },
+  {
+    "name": "Torre de televisión de Kiev",
+    "height": 385,
+    "image": "kyiv_tv_tower",
+    "country": "Ucrania"
   },
   {
     "name": "Shun Hing Square",
@@ -372,6 +414,12 @@
     "country": "China"
   },
   {
+    "name": "Torre de Tashkent",
+    "height": 375,
+    "image": "tashkent_tower",
+    "country": "Uzbekistán"
+  },
+  {
     "name": "Central Plaza",
     "height": 374,
     "image": "central_plaza",
@@ -382,6 +430,18 @@
     "height": 374,
     "image": "federation_tower",
     "country": "Rusia"
+  },
+  {
+    "name": "Torre Liberación",
+    "height": 372,
+    "image": "liberation_tower",
+    "country": "Kuwait"
+  },
+  {
+    "name": "Torre Alma-Ata",
+    "height": 371,
+    "image": "alma_ata_tower",
+    "country": "Kazajistán"
   },
   {
     "name": "Dalian International Trade Center",
@@ -402,6 +462,12 @@
     "country": "China"
   },
   {
+    "name": "Torre de radio y TV Çamlıca",
+    "height": 369,
+    "image": "camlica_radio_and_tv_tower",
+    "country": "Turquía"
+  },
+  {
     "name": "Golden Eagle Tiandi Tower A",
     "height": 368,
     "image": "golden_eagle_tiandi_tower_a",
@@ -412,6 +478,12 @@
     "height": 368,
     "image": "riga_radio_and_tv_tower",
     "country": "Letonia"
+  },
+  {
+    "name": "Berliner Fernsehturm",
+    "height": 368,
+    "image": "berliner_fernsehturm",
+    "country": "Alemania"
   },
   {
     "name": "Bank of China Tower",
@@ -1236,6 +1308,12 @@
     "country": "Kenia"
   },
   {
+    "name": "Laykyun Sekkya",
+    "height": 129,
+    "image": "laykyun_sekkya",
+    "country": "Birmania"
+  },
+  {
     "name": "Catedral de Amberes",
     "height": 123,
     "image": "church_of_our_lady_antwerpen",
@@ -1246,6 +1324,12 @@
     "height": 123,
     "image": "salisbury_cathedral",
     "country": "Reino Unido"
+  },
+  {
+    "name": "Ushiku Daibutsu",
+    "height": 120,
+    "image": "ushiku_daibutsu",
+    "country": "Japón"
   },
   {
     "name": "Ayia Napa Marina East Tower",
@@ -1320,10 +1404,28 @@
     "country": "Bélgica"
   },
   {
+    "name": "Sendai Daikannon",
+    "height": 100,
+    "image": "sendai_daikannon",
+    "country": "Japón"
+  },
+  {
     "name": "Campanile de San Marcos",
     "height": 99,
     "image": "campanile_de_san_marcos",
     "country": "Italia"
+  },
+  {
+    "name": "Guishan Guanyin",
+    "height": 99,
+    "image": "guishan_guanyin",
+    "country": "China"
+  },
+  {
+    "name": "Estatua de Pedro el Grande",
+    "height": 98,
+    "image": "peter_the_great_monument",
+    "country": "Rusia"
   },
   {
     "name": "Big Ben",
@@ -1344,6 +1446,12 @@
     "country": "Estados Unidos"
   },
   {
+    "name": "Phra Buddha Maha Nawamin",
+    "height": 92,
+    "image": "phra_buddha_maha_nawamin",
+    "country": "Tailandia"
+  },
+  {
     "name": "Catedral de Notre Dame",
     "height": 90,
     "image": "notre_dame",
@@ -1354,6 +1462,12 @@
     "height": 88,
     "image": "catedral_burgos",
     "country": "España"
+  },
+  {
+    "name": "Dai Kannon de Kita no Miyako park",
+    "height": 88,
+    "image": "dai_kannon_of_kita_no_miyako_park",
+    "country": "Japón"
   },
   {
     "name": "Campanile de Giotto",
@@ -1378,6 +1492,12 @@
     "height": 80,
     "image": "castillo_del_alcazar_de_segovia",
     "country": "España"
+  },
+  {
+    "name": "Foshan Guangdong Guanyin",
+    "height": 77,
+    "image": "foshan_guangdong_guanyin",
+    "country": "China"
   },
   {
     "name": "Catedral de Santiago de Compostela",
