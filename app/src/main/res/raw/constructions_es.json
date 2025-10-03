@@ -588,6 +588,12 @@
     "country": "Emiratos Árabes Unidos"
   },
   {
+    "name": "Torre Lotus",
+    "height": 352,
+    "image": "lotus_tower",
+    "country": "Sri Lanka"
+  },
+  {
     "name": "Forum 66 Tower 1",
     "height": 351,
     "image": "forum_66_tower_1",
@@ -604,6 +610,12 @@
     "height": 350,
     "image": "glory_xi_an_international_financial_center",
     "country": "China"
+  },
+  {
+    "name": "Torre The STRAT",
+    "height": 350,
+    "image": "the_strat_tower",
+    "country": "Estados Unidos"
   },
   {
     "name": "Spring City 66",
@@ -672,10 +684,34 @@
     "country": "Rusia"
   },
   {
+    "name": "Torre West Pearl",
+    "height": 339,
+    "image": "west_pearl_tower",
+    "country": "China"
+  },
+  {
+    "name": "Torre Macau",
+    "height": 338,
+    "image": "macau_tower",
+    "country": "China"
+  },
+  {
+    "name": "Europaturm",
+    "height": 337,
+    "image": "europaturm",
+    "country": "Alemania"
+  },
+  {
     "name": "Wilshire Grand Center",
     "height": 336,
     "image": "wilshire_grand_center",
     "country": "Estados Unidos"
+  },
+  {
+    "name": "Torre Dragon",
+    "height": 336,
+    "image": "dragon_tower",
+    "country": "China"
   },
   {
     "name": "Rose Rayhaan by Rotana",
@@ -706,6 +742,12 @@
     "height": 328,
     "image": "baiyoke_tower_2",
     "country": "Tailandia"
+  },
+  {
+    "name": "Torre Sky",
+    "height": 328,
+    "image": "sky_tower",
+    "country": "Nueva Zelanda"
   },
   {
     "name": "Mori JP Tower",
@@ -1026,6 +1068,12 @@
     "country": "Israel"
   },
   {
+    "name": "Torre N Seoul",
+    "height": 237,
+    "image": "n_seoul_tower",
+    "country": "Corea del Sur"
+  },
+  {
     "name": "Torre PwC",
     "height": 236,
     "image": "torre_pwc",
@@ -1090,6 +1138,12 @@
     "height": 216,
     "image": "bd_bacata_torre_sur",
     "country": "Colombia"
+  },
+  {
+    "name": "Torre Praha",
+    "height": 216,
+    "image": "praha_tower",
+    "country": "República Checa"
   },
   {
     "name": "Torres de Katara",
@@ -1360,6 +1414,12 @@
     "height": 108,
     "image": "cathedral_of_milan",
     "country": "Italia"
+  },
+  {
+    "name": "Torre Kobe Port",
+    "height": 108,
+    "image": "kobe_port_tower",
+    "country": "Japón"
   },
   {
     "name": "Catedral de Sevilla",
