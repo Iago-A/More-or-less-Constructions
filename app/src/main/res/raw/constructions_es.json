@@ -12,13 +12,13 @@
     "country": "Malasia"
   },
   {
-    "name": "Tokyo Sky Tree",
+    "name": "Torre Sky Tree de Tokio",
     "height": 634,
     "image": "tokyo_skytree",
     "country": "Japón"
   },
   {
-    "name": "Torre de Shanghái",
+    "name": "Shanghai Tower",
     "height": 632,
     "image": "shanghai_tower",
     "country": "China"
@@ -60,7 +60,7 @@
     "country": "Estados Unidos"
   },
   {
-    "name": "Ostankino Tower",
+    "name": "Torre de Ostankino",
     "height": 540,
     "image": "ostankino_tower",
     "country": "Rusia"
@@ -78,7 +78,7 @@
     "country": "China"
   },
   {
-    "name": "Torre CITIC",
+    "name": "CITIC tower",
     "height": 528,
     "image": "citic_tower",
     "country": "China"
@@ -108,7 +108,7 @@
     "country": "China"
   },
   {
-    "name": "Torre Central Park",
+    "name": "Central Park Tower",
     "height": 472,
     "image": "central_park_tower",
     "country": "Estados Unidos"
@@ -144,7 +144,7 @@
     "country": "China"
   },
   {
-    "name": "Torres Petronas",
+    "name": "Petronas Towers",
     "height": 452,
     "image": "petronas_towers",
     "country": "Malasia"
@@ -168,7 +168,7 @@
     "country": "Malasia"
   },
   {
-    "name": "Torre Willis",
+    "name": "Willis Tower",
     "height": 442,
     "image": "willis_tower",
     "country": "Estados Unidos"
@@ -228,13 +228,13 @@
     "country": "China"
   },
   {
-    "name": "Torre Jin Mao",
+    "name": "Jin Mao Tower",
     "height": 420,
     "image": "jin_mao_tower",
     "country": "China"
   },
   {
-    "name": "Menara Kuala Lumpur",
+    "name": "Torre Menara",
     "height": 420,
     "image": "menara_kuala_lumpur",
     "country": "Malasia"
@@ -246,13 +246,13 @@
     "country": "China"
   },
   {
-    "name": "Torre Princess",
+    "name": "Princess Tower",
     "height": 413,
     "image": "princess_tower",
     "country": "Emiratos Árabes Unidos"
   },
   {
-    "name": "Torre Al Hamra",
+    "name": "Al Hamra Tower",
     "height": 413,
     "image": "al_hamra_tower",
     "country": "Kuwait"
@@ -270,7 +270,7 @@
     "country": "Corea del Sur"
   },
   {
-    "name": "Torre de radio y TV central",
+    "name": "Torre central de radio y TV",
     "height": 411,
     "image": "central_radio_and_tv_tower",
     "country": "China"
@@ -336,7 +336,7 @@
     "country": "China"
   },
   {
-    "name": "Torre de radio y televisión de la provincial de Henan",
+    "name": "Torre de radio y TV de la provincia de Henan",
     "height": 388,
     "image": "henan_province_radio_and_television_tower",
     "country": "China"
@@ -426,19 +426,19 @@
     "country": "Hong Kong"
   },
   {
-    "name": "Torre Federación",
+    "name": "Federation Tower",
     "height": 374,
     "image": "federation_tower",
     "country": "Rusia"
   },
   {
-    "name": "Torre Liberación",
+    "name": "Torre de la Liberación",
     "height": 372,
     "image": "liberation_tower",
     "country": "Kuwait"
   },
   {
-    "name": "Torre Alma-Ata",
+    "name": "Torre de Alma-Ata",
     "height": 371,
     "image": "alma_ata_tower",
     "country": "Kazajistán"
@@ -462,7 +462,7 @@
     "country": "China"
   },
   {
-    "name": "Torre de radio y TV Çamlıca",
+    "name": "Torre de radio y TV de Çamlıca",
     "height": 369,
     "image": "camlica_radio_and_tv_tower",
     "country": "Turquía"
@@ -474,13 +474,13 @@
     "country": "China"
   },
   {
-    "name": "Riga Radio & TV Tower",
+    "name": "Torre de radio y TV de Riga",
     "height": 368,
     "image": "riga_radio_and_tv_tower",
     "country": "Letonia"
   },
   {
-    "name": "Berliner Fernsehturm",
+    "name": "Torre de televisión de Berlín",
     "height": 368,
     "image": "berliner_fernsehturm",
     "country": "Alemania"
@@ -588,7 +588,7 @@
     "country": "Emiratos Árabes Unidos"
   },
   {
-    "name": "Torre Lotus",
+    "name": "Torre Loto",
     "height": 352,
     "image": "lotus_tower",
     "country": "Sri Lanka"
@@ -612,7 +612,7 @@
     "country": "China"
   },
   {
-    "name": "Torre The STRAT",
+    "name": "Torre STRAT",
     "height": 350,
     "image": "the_strat_tower",
     "country": "Estados Unidos"
@@ -684,13 +684,13 @@
     "country": "Rusia"
   },
   {
-    "name": "Torre West Pearl",
+    "name": "Torre Perla del Oeste",
     "height": 339,
     "image": "west_pearl_tower",
     "country": "China"
   },
   {
-    "name": "Torre Macau",
+    "name": "Torre de Macao",
     "height": 338,
     "image": "macau_tower",
     "country": "China"
@@ -732,7 +732,7 @@
     "country": "Francia"
   },
   {
-    "name": "Hotel Ryugyong",
+    "name": "Ryugyong Hotel",
     "height": 330,
     "image": "hotel_ryugyong",
     "country": "Corea del Norte"
@@ -1008,7 +1008,7 @@
     "country": "Alemania"
   },
   {
-    "name": "Puente Great Belt East",
+    "name": "Puente del Gran Belt",
     "height": 254,
     "image": "great_belt_bridge",
     "country": "Dinamarca"
@@ -1086,7 +1086,7 @@
     "country": "Brasil"
   },
   {
-    "name": "Torre F&F",
+    "name": "F&F Tower",
     "height": 233,
     "image": "f_and_f_tower",
     "country": "Panamá"
@@ -1140,13 +1140,13 @@
     "country": "Colombia"
   },
   {
-    "name": "Torre Praha",
+    "name": "Torre de Praga",
     "height": 216,
     "image": "praha_tower",
     "country": "República Checa"
   },
   {
-    "name": "Torres de Katara",
+    "name": "Katara Towers",
     "height": 211,
     "image": "katara_towers",
     "country": "Qatar"
@@ -1398,7 +1398,7 @@
     "country": "Francia"
   },
   {
-    "name": "Hotel Luxor",
+    "name": "Luxor Hotel",
     "height": 111,
     "image": "luxor_hotel",
     "country": "Estados Unidos"
