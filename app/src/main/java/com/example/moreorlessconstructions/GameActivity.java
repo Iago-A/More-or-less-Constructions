@@ -34,6 +34,15 @@ import java.util.Random;
 // In game replacement rules:
 // - The loser is usually replaced
 // - If the winner has won 2 consecutive rounds (winStreak), the winner is replaced
+//
+// The game has a functionality that prevents a construction from randomly appearing for 20 rounds.
+// To achieve this, I have created an array called playedConstruction with 21 slots
+// (because in the first round we always play with 2 constructions), and the construction index
+// from the JSON is saved in it.
+// When the array is full and the index reaches 20, the index is restarted to 1 (not 0)
+// to maintain this 20-round logic, setting playedConstruction[0] to -1 so that construction
+// can be used again later.
+
 
 public class GameActivity extends AppCompatActivity {
     private SharedPreferences prefs;
@@ -54,6 +63,10 @@ public class GameActivity extends AppCompatActivity {
     private boolean topHeightShown;
     private int winStreak;
     private Boolean topWonLastRound;
+    private int i; // Index for playedConstruction array
+    private int playedConstruction [] = new int [21];
+    private boolean alreadyPlayed;
+    private boolean arrayLoop;
 
     private ImageView topImageView;
     private ImageView bottomImageView;
@@ -92,6 +105,12 @@ public class GameActivity extends AppCompatActivity {
         recordCounter = prefs.getInt("best_score", 0);
         winStreak = 0;
         topWonLastRound = null;
+        i = 0;
+        alreadyPlayed = false;
+        arrayLoop = false;
+
+        // Put all the values of the array to -1
+        instantiatePlayedConstructionArray();
 
         // Load the constructions data
         constructions = getConstructionsFromJson();
@@ -101,6 +120,9 @@ public class GameActivity extends AppCompatActivity {
         do {
             randomNumber2 = random.nextInt(constructions.size());
         } while(randomNumber1 == randomNumber2);
+
+        saveInPlayedConstruction(randomNumber1);
+        saveInPlayedConstruction(randomNumber2);
 
         loadConstruction(constructions, randomNumber1, true);
         loadConstruction(constructions, randomNumber2, false);
@@ -147,6 +169,13 @@ public class GameActivity extends AppCompatActivity {
                 }
             });
         });
+    }
+
+
+    public void instantiatePlayedConstructionArray () {
+        for (int j = 0; j < playedConstruction.length; j++) {
+            playedConstruction[j] = -1;
+        }
     }
 
 
@@ -211,6 +240,45 @@ public class GameActivity extends AppCompatActivity {
         }
 
         return constructions;
+    }
+
+
+    public void checkPlayedConstruction (int randomNumber) {
+        alreadyPlayed = false;
+
+        for (int j = 0; j < playedConstruction.length; j++) {
+            if (playedConstruction[j] == randomNumber) {
+                alreadyPlayed = true;
+                break;
+            }
+        }
+    }
+
+
+    public void saveInPlayedConstruction (int randomNumber) {
+        playedConstruction[i] = randomNumber;
+
+        if (i == playedConstruction.length) {
+            // As the index won't be 0 never again, this is necessary to "liberate" the first construction saved on
+            // the first round
+            if (!arrayLoop) {
+                playedConstruction[0] = -1;
+            }
+
+            // The index will be 1 and not 0 due the length of the array (21). This way, we only save 20 constructions
+            // in the followings loops
+            i = 1;
+            arrayLoop = true;
+        }
+        else {
+            i++;
+        }
+
+        // If arrayLoop is true, it means the game has more than 20 rounds played, so it is necessary to put the actual
+        // value of the array to -1 to keep using the array and its logic.
+        if (arrayLoop) {
+            playedConstruction[i] = -1;
+        }
     }
 
 
@@ -373,7 +441,10 @@ public class GameActivity extends AppCompatActivity {
         int newIndex;
         do {
             newIndex = random.nextInt(constructions.size());
-        } while (newIndex == randomNumber1 || newIndex == randomNumber2);
+            checkPlayedConstruction(newIndex);
+        } while (newIndex == randomNumber1 || newIndex == randomNumber2 || alreadyPlayed);
+
+        saveInPlayedConstruction(newIndex);
 
         // Replacement rules:
         // - The loser is usually replaced
