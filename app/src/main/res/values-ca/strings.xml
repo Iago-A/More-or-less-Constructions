@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">More or less: Constructions</string>
+    <string name="start">Començar</string>
+    <string name="score">Puntuació:</string>
+    <string name="game_over_1">Ups! T’has equivocat en prémer?</string>
+    <string name="game_over_2">No és una gran ratxa, però la pots millorar!</string>
+    <string name="game_over_3">Has arribat alt, tot i que no tant com un gratacels</string>
+    <string name="game_over_4">Gran feina, continua així! No ha estat només sort, oi?</string>
+    <string name="game_over_5">Wow! Ets gairebé una enciclopèdia ambulant!</string>
+    <string name="play_again">Tornar a jugar</string>
+    <string name="main_menu">Menú principal</string>
+</resources>

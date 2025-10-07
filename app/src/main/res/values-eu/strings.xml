@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">More or less: Constructions</string>
+    <string name="start">Hasi</string>
+    <string name="score">Puntuazioa:</string>
+    <string name="game_over_1">Ups! Akatsa egin duzu sakatzean?</string>
+    <string name="game_over_2">Ez da erronka handia, baina hobetu dezakezu!</string>
+    <string name="game_over_3">Goian iritsi zara, baina ez eskailerarik altuen bezain altu</string>
+    <string name="game_over_4">Lan bikaina, jarraitu horrela! Ez da zorte hutsa izan, ezta?</string>
+    <string name="game_over_5">Wow! Zure burua ibiltzen den entziklopedia bat bezala zara!</string>
+    <string name="play_again">Berriro jolastu</string>
+    <string name="main_menu">Menu nagusia</string>
+</resources>
