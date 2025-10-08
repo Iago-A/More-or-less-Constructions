@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">More or less: Constructions</string>
+    <string name="start">スタート</string>
+    <string name="score">スコア：</string>
+    <string name="game_over_1">おっと！間違った方を押しましたか？</string>
+    <string name="game_over_2">あまり良い記録ではありませんが、まだ伸びますよ！</string>
+    <string name="game_over_3">かなり高くまで行きましたね。でも超高層ビルにはもう少し！</string>
+    <string name="game_over_4">すごい！その調子で続けて！運だけじゃないですよね？</string>
+    <string name="game_over_5">わあ！まるで歩く百科事典のようですね！</string>
+    <string name="play_again">もう一度プレイ</string>
+    <string name="main_menu">メインメニュー</string>
+</resources>
