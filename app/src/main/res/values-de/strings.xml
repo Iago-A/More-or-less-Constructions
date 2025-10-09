@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mehr oder weniger: Bauwerke</string>
+    <string name="start">Start</string>
+    <string name="score">Punkte:</string>
+    <string name="game_over_1">Ups! Hast du den falschen Knopf gedrückt?</string>
+    <string name="game_over_2">Keine große Serie, aber du kannst dich verbessern!</string>
+    <string name="game_over_3">Du bist hoch gekommen, aber noch nicht wolkenkratzerhoch!</string>
+    <string name="game_over_4">Super gemacht, weiter so! Das war doch nicht nur Glück, oder?</string>
+    <string name="game_over_5">Wow! Du bist wie ein wandelndes Lexikon!</string>
+    <string name="play_again">Nochmal spielen</string>
+    <string name="main_menu">Hauptmenü</string>
+</resources>

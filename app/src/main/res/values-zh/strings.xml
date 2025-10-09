@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">更多或更少：建筑物</string>
+    <string name="start">开始</string>
+    <string name="score">分数：</string>
+    <string name="game_over_1">哎呀！你选错了吗？</string>
+    <string name="game_over_2">成绩不算好，但你可以进步！</string>
+    <string name="game_over_3">你已经很厉害了，不过还没到摩天大楼的高度</string>
+    <string name="game_over_4">干得好，继续努力！这可不只是运气，对吧？</string>
+    <string name="game_over_5">哇！你简直就是一本行走的百科全书！</string>
+    <string name="play_again">再玩一次</string>
+    <string name="main_menu">主菜单</string>
+</resources>

@@ -3,19 +3,19 @@
     "name": "Burj Khalifa",
     "height": 828,
     "image": "burj_khalifa",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Merdeka 118",
     "height": 679,
     "image": "merdeka_118",
-    "country": "Malasia"
+    "country": "Malásia"
   },
   {
-    "name": "Torre Sky Tree de Tokio",
+    "name": "Torre Sky Tree de Tóquio",
     "height": 634,
     "image": "tokyo_skytree",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Shanghai Tower",
@@ -24,7 +24,7 @@
     "country": "China"
   },
   {
-    "name": "Torre de telecomunicaciones de Cantón",
+    "name": "Torre de telecomunicações de Cantão",
     "height": 604,
     "image": "canton_telecommunication_tower",
     "country": "China"
@@ -33,7 +33,7 @@
     "name": "Abraj Al-Bait",
     "height": 601,
     "image": "abraj_al_bait",
-    "country": "Arabia Saudita"
+    "country": "Arábia Saudita"
   },
   {
     "name": "Shenzhen Ping An Finance Center",
@@ -45,7 +45,7 @@
     "name": "Lotte World Tower",
     "height": 556,
     "image": "lotte_world_tower",
-    "country": "Corea del Sur"
+    "country": "Coreia do Sul"
   },
   {
     "name": "Torre CN",
@@ -63,7 +63,7 @@
     "name": "Torre de Ostankino",
     "height": 540,
     "image": "ostankino_tower",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
     "name": "Guangzhou CTF Finance Centre",
@@ -78,7 +78,7 @@
     "country": "China"
   },
   {
-    "name": "CITIC tower",
+    "name": "Torre CITIC",
     "height": 528,
     "image": "citic_tower",
     "country": "China"
@@ -87,7 +87,7 @@
     "name": "Taipei 101",
     "height": 508,
     "image": "taipei_101",
-    "country": "Taiwán"
+    "country": "Taiwan"
   },
   {
     "name": "Shanghai World Financial Center",
@@ -114,7 +114,7 @@
     "country": "Estados Unidos"
   },
   {
-    "name": "Torre de Televisión Oriental Pearl",
+    "name": "Torre de Televisão Oriental Pearl",
     "height": 468,
     "image": "oriental_pearl_television_tower",
     "country": "China"
@@ -123,13 +123,13 @@
     "name": "Lakhta Center",
     "height": 462,
     "image": "lakhta_center",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
     "name": "Vincom Landmark 81",
     "height": 461,
     "image": "vincom_landmark_81",
-    "country": "Vietnam"
+    "country": "Vietnã"
   },
   {
     "name": "International Land-Sea Center",
@@ -147,7 +147,7 @@
     "name": "Petronas Towers",
     "height": 452,
     "image": "petronas_towers",
-    "country": "Malasia"
+    "country": "Malásia"
   },
   {
     "name": "Suzhou IFS",
@@ -165,7 +165,7 @@
     "name": "The Exchange 106",
     "height": 446,
     "image": "the_exchange_106",
-    "country": "Malasia"
+    "country": "Malásia"
   },
   {
     "name": "Willis Tower",
@@ -192,10 +192,10 @@
     "country": "Estados Unidos"
   },
   {
-    "name": "Torre de telecomunicaciones de Milad",
+    "name": "Torre de telecomunicações de Milad",
     "height": 435,
     "image": "milad_telecomm_tower",
-    "country": "Irán"
+    "country": "Irã"
   },
   {
     "name": "One Vanderbilt",
@@ -213,7 +213,7 @@
     "name": "Marina 101",
     "height": 425,
     "image": "marina_101",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Trump International Hotel",
@@ -237,10 +237,10 @@
     "name": "Torre Menara",
     "height": 420,
     "image": "menara_kuala_lumpur",
-    "country": "Malasia"
+    "country": "Malásia"
   },
   {
-    "name": "Torre de radio y TV de Tianjin",
+    "name": "Torre de rádio e TV de Tianjin",
     "height": 415,
     "image": "tianjin_radio_and_tv_tower",
     "country": "China"
@@ -249,7 +249,7 @@
     "name": "Princess Tower",
     "height": 413,
     "image": "princess_tower",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Al Hamra Tower",
@@ -267,10 +267,10 @@
     "name": "LCT The Sharp Landmark Tower",
     "height": 412,
     "image": "lct_the_sharp_landmark_tower",
-    "country": "Corea del Sur"
+    "country": "Coreia do Sul"
   },
   {
-    "name": "Torre central de radio y TV",
+    "name": "Torre central de rádio e TV",
     "height": 411,
     "image": "central_radio_and_tv_tower",
     "country": "China"
@@ -297,7 +297,7 @@
     "name": "Iconic Tower",
     "height": 394,
     "image": "iconic_tower",
-    "country": "Egipto"
+    "country": "Egito"
   },
   {
     "name": "China Merchants Bank Global HQ Tower",
@@ -315,7 +315,7 @@
     "name": "23 Marina",
     "height": 392,
     "image": "marina_23",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "CITIC Plaza",
@@ -336,7 +336,7 @@
     "country": "China"
   },
   {
-    "name": "Torre de radio y TV de la provincia de Henan",
+    "name": "Torre de rádio e TV da província de Henan",
     "height": 388,
     "image": "henan_province_radio_and_television_tower",
     "country": "China"
@@ -351,13 +351,13 @@
     "name": "PIF Tower",
     "height": 385,
     "image": "pif_tower",
-    "country": "Arabia Saudita"
+    "country": "Arábia Saudita"
   },
   {
-    "name": "Torre de televisión de Kiev",
+    "name": "Torre de televisão de Kiev",
     "height": 385,
     "image": "kyiv_tv_tower",
-    "country": "Ucrania"
+    "country": "Ucrânia"
   },
   {
     "name": "Shun Hing Square",
@@ -375,7 +375,7 @@
     "name": "Autograph Tower",
     "height": 383,
     "image": "autograph_tower",
-    "country": "Indonesia"
+    "country": "Indonésia"
   },
   {
     "name": "Nanning Logan Century 1",
@@ -387,7 +387,7 @@
     "name": "Burj Mohammed Bin Rashid",
     "height": 381,
     "image": "burj_mohammed_bin_rashid",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Empire State Building",
@@ -399,7 +399,7 @@
     "name": "Elite Residence",
     "height": 380,
     "image": "elite_residence",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "1 Corporate Avenue",
@@ -417,7 +417,7 @@
     "name": "Torre de Tashkent",
     "height": 375,
     "image": "tashkent_tower",
-    "country": "Uzbekistán"
+    "country": "Uzbequistão"
   },
   {
     "name": "Central Plaza",
@@ -429,10 +429,10 @@
     "name": "Federation Tower",
     "height": 374,
     "image": "federation_tower",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
-    "name": "Torre de la Liberación",
+    "name": "Torre da Libertação",
     "height": 372,
     "image": "liberation_tower",
     "country": "Kuwait"
@@ -441,7 +441,7 @@
     "name": "Torre de Alma-Ata",
     "height": 371,
     "image": "alma_ata_tower",
-    "country": "Kazajistán"
+    "country": "Cazaquistão"
   },
   {
     "name": "Dalian International Trade Center",
@@ -453,7 +453,7 @@
     "name": "The Address Boulevard",
     "height": 370,
     "image": "the_address_boulevard",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Qingdao Hai Tian Center",
@@ -462,10 +462,10 @@
     "country": "China"
   },
   {
-    "name": "Torre de radio y TV de Çamlıca",
+    "name": "Torre de rádio e TV de Çamlıca",
     "height": 369,
     "image": "camlica_radio_and_tv_tower",
-    "country": "Turquía"
+    "country": "Turquia"
   },
   {
     "name": "Golden Eagle Tiandi Tower A",
@@ -474,16 +474,16 @@
     "country": "China"
   },
   {
-    "name": "Torre de radio y TV de Riga",
+    "name": "Torre de rádio e TV de Riga",
     "height": 368,
     "image": "riga_radio_and_tv_tower",
-    "country": "Letonia"
+    "country": "Letônia"
   },
   {
-    "name": "Torre de televisión de Berlín",
+    "name": "Torre de televisão de Berlim",
     "height": 368,
     "image": "berliner_fernsehturm",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
     "name": "Bank of China Tower",
@@ -501,7 +501,7 @@
     "name": "Ciel Tower",
     "height": 364,
     "image": "ciel_tower",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "The St. Regis Chicago",
@@ -513,7 +513,7 @@
     "name": "Almas Tower",
     "height": 360,
     "image": "almas_tower",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Jinan Ping An Finance Center",
@@ -537,13 +537,13 @@
     "name": "Gevora Hotel",
     "height": 356,
     "image": "gevora_hotel",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Il Primo Tower",
     "height": 356,
     "image": "il_primo_tower",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Galaxy Yabao Twin Towers",
@@ -555,13 +555,13 @@
     "name": "JW Marriott Marquis Hotel Dubai Towers",
     "height": 355,
     "image": "jw_marriott_marquis_hotel_dubai_towers",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Emirates Towers",
     "height": 355,
     "image": "emirates_towers",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
     "name": "Raffles City Chongqing",
@@ -570,25 +570,25 @@
     "country": "China"
   },
   {
-    "name": "OKO - Residential Tower",
+    "name": "OKO - Torre Residencial",
     "height": 354,
     "image": "oko_residential_tower",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
-    "name": "Central Bank of the Republic of Turkey",
+    "name": "Banco Central da República da Turquia",
     "height": 354,
     "image": "central_bank_of_the_republic_of_turkey",
-    "country": "Turquía"
+    "country": "Turquia"
   },
   {
     "name": "Marina Torch",
     "height": 352,
     "image": "marina_torch",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
-    "name": "Torre Loto",
+    "name": "Torre Lótus",
     "height": 352,
     "image": "lotus_tower",
     "country": "Sri Lanka"
@@ -627,7 +627,7 @@
     "name": "85 Sky Tower",
     "height": 348,
     "image": "sky_tower_85",
-    "country": "Taiwán"
+    "country": "Taiwan"
   },
   {
     "name": "Aon Center",
@@ -645,7 +645,7 @@
     "name": "Neva Towers 2",
     "height": 345,
     "image": "neva_towers_2",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
     "name": "Xiamen Cross Strait Financial Centre",
@@ -669,28 +669,28 @@
     "name": "Four Seasons Place",
     "height": 343,
     "image": "four_seasons_place",
-    "country": "Malasia"
+    "country": "Malásia"
   },
   {
-    "name": "Puente de Millau",
+    "name": "Ponte de Millau",
     "height": 343,
     "image": "millau_bridge",
-    "country": "Francia"
+    "country": "França"
   },
   {
     "name": "Mercury City Tower",
     "height": 339,
     "image": "mercury_city_tower",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
-    "name": "Torre Perla del Oeste",
+    "name": "Torre Pérola do Oeste",
     "height": 339,
     "image": "west_pearl_tower",
     "country": "China"
   },
   {
-    "name": "Torre de Macao",
+    "name": "Torre de Macau",
     "height": 338,
     "image": "macau_tower",
     "country": "China"
@@ -699,7 +699,7 @@
     "name": "Europaturm",
     "height": 337,
     "image": "europaturm",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
     "name": "Wilshire Grand Center",
@@ -708,7 +708,7 @@
     "country": "Estados Unidos"
   },
   {
-    "name": "Torre Dragon",
+    "name": "Torre Dragão",
     "height": 336,
     "image": "dragon_tower",
     "country": "China"
@@ -717,79 +717,79 @@
     "name": "Rose Rayhaan by Rotana",
     "height": 333,
     "image": "rose_rayhaan_by_rotana",
-    "country": "Emiratos Árabes Unidos"
+    "country": "Emirados Árabes Unidos"
   },
   {
-    "name": "Torre de Tokyo",
+    "name": "Torre de Tóquio",
     "height": 333,
     "image": "tokyo_tower",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Torre Eiffel",
     "height": 330,
     "image": "eiffel_tower",
-    "country": "Francia"
+    "country": "França"
   },
   {
-    "name": "Ryugyong Hotel",
+    "name": "Hotel Ryugyong",
     "height": 330,
     "image": "hotel_ryugyong",
-    "country": "Corea del Norte"
+    "country": "Coreia do Norte"
   },
   {
     "name": "Baiyoke Tower II",
     "height": 328,
     "image": "baiyoke_tower_2",
-    "country": "Tailandia"
+    "country": "Tailândia"
   },
   {
     "name": "Torre Sky",
     "height": 328,
     "image": "sky_tower",
-    "country": "Nueva Zelanda"
+    "country": "Nova Zelândia"
   },
   {
     "name": "Mori JP Tower",
     "height": 327,
     "image": "mori_jp_tower",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Q1 Tower",
     "height": 323,
     "image": "q1_tower",
-    "country": "Australia"
+    "country": "Austrália"
   },
   {
     "name": "Parc1 Tower I",
     "height": 322,
     "image": "parc1_tower_1",
-    "country": "Corea del Sur"
+    "country": "Coreia do Sul"
   },
   {
-    "name": "Puente Yavuz Sultan Selim",
+    "name": "Ponte Yavuz Sultan Selim",
     "height": 322,
     "image": "yavuz_sultan_selim_bridge",
-    "country": "Turquía"
+    "country": "Turquia"
   },
   {
-    "name": "Puente Russky",
+    "name": "Ponte Russky",
     "height": 321,
     "image": "russky_bridge",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
     "name": "MahaNakhon",
     "height": 320,
     "image": "mahanakhon",
-    "country": "Tailandia"
+    "country": "Tailândia"
   },
   {
     "name": "Australia 108",
     "height": 319,
     "image": "australia_108",
-    "country": "Australia"
+    "country": "Austrália"
   },
   {
     "name": "Jiuzhou International Tower",
@@ -798,7 +798,7 @@
     "country": "China"
   },
   {
-    "name": "Fanya International Finance Buildings",
+    "name": "Edifícios Fanya International Finance",
     "height": 318,
     "image": "fanya_international_finance_buildings",
     "country": "China"
@@ -807,7 +807,7 @@
     "name": "Magnolias Waterfront Residences Tower 1",
     "height": 315,
     "image": "magnolias_waterfront_residences_tower_1",
-    "country": "Tailandia"
+    "country": "Tailândia"
   },
   {
     "name": "The Spiral",
@@ -825,7 +825,7 @@
     "name": "Varso Tower",
     "height": 310,
     "image": "varso_tower",
-    "country": "Polonia"
+    "country": "Polônia"
   },
   {
     "name": "The Shard",
@@ -834,7 +834,7 @@
     "country": "Reino Unido"
   },
   {
-    "name": "Puente Sutong",
+    "name": "Ponte Sutong",
     "height": 306,
     "image": "sutong_bridge",
     "country": "China"
@@ -843,31 +843,31 @@
     "name": "Northeast Asia Trade Tower",
     "height": 305,
     "image": "northeast_asia_trade_tower",
-    "country": "Corea del Sur"
+    "country": "Coreia do Sul"
   },
   {
     "name": "Eureka Tower",
     "height": 301,
     "image": "eureka_tower",
-    "country": "Australia"
+    "country": "Austrália"
   },
   {
     "name": "Luminary Tower",
     "height": 301,
     "image": "luminary_tower",
-    "country": "Indonesia"
+    "country": "Indonésia"
   },
   {
     "name": "Lokhandwala Minerva",
     "height": 301,
     "image": "lokhandwala_minerva",
-    "country": "India"
+    "country": "Índia"
   },
   {
     "name": "Abeno Harukas",
     "height": 300,
     "image": "abeno_harukas",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Torre Costanera",
@@ -879,16 +879,16 @@
     "name": "Commerzbank Tower",
     "height": 300,
     "image": "commerzbank_tower",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
     "name": "Aspire Tower",
     "height": 300,
     "image": "aspire_tower",
-    "country": "Qatar"
+    "country": "Catar"
   },
   {
-    "name": "Puente Stonecutters",
+    "name": "Ponte Stonecutters",
     "height": 298,
     "image": "stonecutters_bridge",
     "country": "Hong Kong"
@@ -897,19 +897,19 @@
     "name": "Gama Tower",
     "height": 297,
     "image": "gama_tower",
-    "country": "Indonesia"
+    "country": "Indonésia"
   },
   {
-    "name": "Puente de Akashi-Kaikyo",
+    "name": "Ponte de Akashi-Kaikyo",
     "height": 297,
     "image": "akashi_kaikyo_bridge",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Landmark Tower",
     "height": 296,
     "image": "landmark_tower",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Yachthouse by Pininfarina Towers",
@@ -933,10 +933,10 @@
     "name": "Guoco Tower",
     "height": 284,
     "image": "guoco_tower",
-    "country": "Singapur"
+    "country": "Singapura"
   },
   {
-    "name": "JW Marriott Panama",
+    "name": "JW Marriott Panamá",
     "height": 284,
     "image": "jw_marriott_panama",
     "country": "Panamá"
@@ -945,13 +945,13 @@
     "name": "United Overseas Bank Plaza One",
     "height": 280,
     "image": "united_overseas_bank_plaza_one",
-    "country": "Singapur"
+    "country": "Singapura"
   },
   {
     "name": "World One",
     "height": 280,
     "image": "world_one",
-    "country": "India"
+    "country": "Índia"
   },
   {
     "name": "Torre KOI",
@@ -963,7 +963,7 @@
     "name": "Republic Plaza",
     "height": 276,
     "image": "republic_plaza",
-    "country": "Singapur"
+    "country": "Singapura"
   },
   {
     "name": "Bicsa Financial Center",
@@ -975,25 +975,25 @@
     "name": "Toranomon Hills Station Tower",
     "height": 266,
     "image": "toranomon_hills_station_tower",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Jakarta Mori Tower",
     "height": 266,
     "image": "jakarta_mori_tower",
-    "country": "Indonesia"
+    "country": "Indonésia"
   },
   {
-    "name": "Mezquita Djamaa el Djazaïr",
+    "name": "Mesquita Djamaa el Djazaïr",
     "height": 265,
     "image": "djamaa_el_djazair_mosque",
-    "country": "Argelia"
+    "country": "Argélia"
   },
   {
     "name": "Bitexco Financial Tower",
     "height": 264,
     "image": "bitexco_financial_tower",
-    "country": "Vietnam"
+    "country": "Vietnã"
   },
   {
     "name": "Transamerica Pyramid",
@@ -1005,10 +1005,10 @@
     "name": "MesseTurm",
     "height": 257,
     "image": "messeturm",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
-    "name": "Puente del Gran Belt",
+    "name": "Ponte do Grande Cinto",
     "height": 254,
     "image": "great_belt_bridge",
     "country": "Dinamarca"
@@ -1017,13 +1017,13 @@
     "name": "Torre de Cristal",
     "height": 249,
     "image": "torre_de_cristal",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Torre Cepsa",
     "height": 248,
     "image": "torre_cepsa",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Torre Reforma",
@@ -1035,7 +1035,7 @@
     "name": "Palm Towers",
     "height": 245,
     "image": "palm_towers",
-    "country": "Qatar"
+    "country": "Catar"
   },
   {
     "name": "Boreal Tower",
@@ -1050,16 +1050,16 @@
     "country": "Sri Lanka"
   },
   {
-    "name": "Estatua de la Unidad",
+    "name": "Estátua da Unidade",
     "height": 240,
     "image": "statue_of_unity",
-    "country": "India"
+    "country": "Índia"
   },
   {
     "name": "Doha Tower",
     "height": 238,
     "image": "doha_tower",
-    "country": "Qatar"
+    "country": "Catar"
   },
   {
     "name": "Azrieli Sarona Tower",
@@ -1068,16 +1068,16 @@
     "country": "Israel"
   },
   {
-    "name": "Torre N Seoul",
+    "name": "Torre N Seul",
     "height": 237,
     "image": "n_seoul_tower",
-    "country": "Corea del Sur"
+    "country": "Coreia do Sul"
   },
   {
     "name": "Torre PwC",
     "height": 236,
     "image": "torre_pwc",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Infinity Coast Tower",
@@ -1095,28 +1095,28 @@
     "name": "Tour First",
     "height": 231,
     "image": "tour_first",
-    "country": "Francia"
+    "country": "França"
   },
   {
-    "name": "Palace of Culture and Science",
+    "name": "Palácio da Cultura e Ciência",
     "height": 231,
     "image": "palace_of_culture_and_science",
-    "country": "Polonia"
+    "country": "Polônia"
   },
   {
-    "name": "Shangri-La Cambodia",
+    "name": "Shangri-La Camboja",
     "height": 228,
     "image": "shangrila_cambodia",
-    "country": "Camboya"
+    "country": "Camboja"
   },
   {
     "name": "The Leonardo",
     "height": 228,
     "image": "the_leonardo",
-    "country": "Sudáfrica"
+    "country": "África do Sul"
   },
   {
-    "name": "Puente Golden Gate",
+    "name": "Ponte Golden Gate",
     "height": 227,
     "image": "golden_gate",
     "country": "Estados Unidos"
@@ -1125,19 +1125,19 @@
     "name": "Torre Emperador Castellana",
     "height": 224,
     "image": "torre_emperador_castellana",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Olszynki Park W",
     "height": 220,
     "image": "olszynki_park_w",
-    "country": "Polonia"
+    "country": "Polônia"
   },
   {
-    "name": "BD Bacatá Torre Sur",
+    "name": "BD Bacatá Torre Sul",
     "height": 216,
     "image": "bd_bacata_torre_sur",
-    "country": "Colombia"
+    "country": "Colômbia"
   },
   {
     "name": "Torre de Praga",
@@ -1149,7 +1149,7 @@
     "name": "Katara Towers",
     "height": 211,
     "image": "katara_towers",
-    "country": "Qatar"
+    "country": "Catar"
   },
   {
     "name": "Nimrodi Tower",
@@ -1158,10 +1158,10 @@
     "country": "Israel"
   },
   {
-    "name": "Mezquita Hassan II",
+    "name": "Mesquita Hassan II",
     "height": 210,
     "image": "hassan_ii_mosque",
-    "country": "Marruecos"
+    "country": "Marrocos"
   },
   {
     "name": "Spring Temple Buddha",
@@ -1173,19 +1173,19 @@
     "name": "Vietcombank Tower",
     "height": 206,
     "image": "vietcombank_tower",
-    "country": "Vietnam"
+    "country": "Vietnã"
   },
   {
     "name": "Diamond Flower Tower",
     "height": 199,
     "image": "diamond_flower_tower",
-    "country": "Vietnam"
+    "country": "Vietnã"
   },
   {
     "name": "SOCAR Tower",
     "height": 196,
     "image": "socar_tower",
-    "country": "Azerbaiyán "
+    "country": "Azerbaijão"
   },
   {
     "name": "Arco Gateway",
@@ -1197,13 +1197,13 @@
     "name": "Turning Torso",
     "height": 190,
     "image": "turning_torso",
-    "country": "Suecia"
+    "country": "Suécia"
   },
   {
     "name": "United Tower",
     "height": 189,
     "image": "united_tower",
-    "country": "Baréin"
+    "country": "Barém"
   },
   {
     "name": "Space Needle de Seattle",
@@ -1215,19 +1215,19 @@
     "name": "Torre de Cali",
     "height": 183,
     "image": "torre_de_cali",
-    "country": "Colombia"
+    "country": "Colômbia"
   },
   {
     "name": "Flame Towers",
     "height": 182,
     "image": "flame_towers",
-    "country": "Azerbaiyán"
+    "country": "Azerbaijão"
   },
   {
     "name": "Generali Tower",
     "height": 177,
     "image": "generali_tower",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
     "name": "Monumento a Washington",
@@ -1236,7 +1236,7 @@
     "country": "Estados Unidos"
   },
   {
-    "name": "Ayuntamiento de Filadelfia",
+    "name": "Câmara Municipal da Filadélfia",
     "height": 167,
     "image": "philadelphia_city_hall",
     "country": "Estados Unidos"
@@ -1245,40 +1245,40 @@
     "name": "Mole Antonelliana",
     "height": 166,
     "image": "mole_antonelliana",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Kim Chaek University of Technology Towers",
+    "name": "Torres da Universidade Kim Chaek de Tecnologia",
     "height": 165,
     "image": "kim_chaek_university_of_technology_towers",
-    "country": "Corea del Norte"
+    "country": "Coreia do Norte"
   },
   {
     "name": "Torre Iberdrola",
     "height": 165,
     "image": "torre_iberdrola",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Ulmer Münster",
     "height": 162,
     "image": "ulmer_munster",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
     "name": "Palazzo Lombardia",
     "height": 161,
     "image": "palazzo_lombardia",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Catedral de Colonia",
+    "name": "Catedral de Colônia",
     "height": 157,
     "image": "cologne_cathedral",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
-    "name": "Puente Vasco da Gama",
+    "name": "Ponte Vasco da Gama",
     "height": 155,
     "image": "vasco_da_gama_bridge",
     "country": "Portugal"
@@ -1287,88 +1287,88 @@
     "name": "Montevideo",
     "height": 152,
     "image": "montevideo",
-    "country": "Holanda"
+    "country": "Países Baixos"
   },
   {
     "name": "Pearl Dawn",
     "height": 152,
     "image": "pearl_dawn",
-    "country": "Sudáfrica"
+    "country": "África do Sul"
   },
   {
     "name": "De Rotterdam",
     "height": 151,
     "image": "de_rotterdam",
-    "country": "Holanda"
+    "country": "Países Baixos"
   },
   {
-    "name": "Catedral de Ruán",
+    "name": "Catedral de Ruão",
     "height": 151,
     "image": "rouen_cathedral",
-    "country": "Francia"
+    "country": "França"
   },
   {
     "name": "Millennium Tower",
     "height": 149,
     "image": "millennium_tower",
-    "country": "Holanda"
+    "country": "Países Baixos"
   },
   {
     "name": "Mwalimu Nyerere Foundation Square",
     "height": 145,
     "image": "mwalimu_nyerere_foundation_square",
-    "country": "Tanzania"
+    "country": "Tanzânia"
   },
   {
     "name": "Solaria",
     "height": 143,
     "image": "solaria",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Pirámide de Keops",
+    "name": "Pirâmide de Quéops",
     "height": 139,
     "image": "kheops_pyramid",
-    "country": "Egipto"
+    "country": "Egito"
   },
   {
-    "name": "Basílica de San Pedro",
+    "name": "Basílica de São Pedro",
     "height": 137,
     "image": "st_peters_basilica",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Pirámide de Kefrén",
+    "name": "Pirâmide de Quéfren",
     "height": 136,
     "image": "kefren_pyramid",
-    "country": "Egipto"
+    "country": "Egito"
   },
   {
-    "name": "Catedral de San Esteban",
+    "name": "Catedral de Santo Estêvão",
     "height": 136,
     "image": "st_stephen_cathedral",
-    "country": "Austria"
+    "country": "Áustria"
   },
   {
-    "name": "Puente de la bahía de Sídney",
+    "name": "Ponte da Baía de Sydney",
     "height": 134,
     "image": "sydney_harbour_bridge",
-    "country": "Australia"
+    "country": "Austrália"
   },
   {
     "name": "Prism Tower",
     "height": 133,
     "image": "prism_tower",
-    "country": "Kenia"
+    "country": "Quênia"
   },
   {
     "name": "Laykyun Sekkya",
     "height": 129,
     "image": "laykyun_sekkya",
-    "country": "Birmania"
+    "country": "Myanmar"
   },
   {
-    "name": "Catedral de Amberes",
+    "name": "Catedral de Antuérpia",
     "height": 123,
     "image": "church_of_our_lady_antwerpen",
     "country": "Bélgica"
@@ -1383,7 +1383,7 @@
     "name": "Ushiku Daibutsu",
     "height": 120,
     "image": "ushiku_daibutsu",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
     "name": "Ayia Napa Marina East Tower",
@@ -1395,7 +1395,7 @@
     "name": "Catedral de Chartres",
     "height": 113,
     "image": "chartres_cathedral",
-    "country": "Francia"
+    "country": "França"
   },
   {
     "name": "Luxor Hotel",
@@ -1404,55 +1404,55 @@
     "country": "Estados Unidos"
   },
   {
-    "name": "Catedral de San Pablo",
+    "name": "Catedral de São Paulo",
     "height": 111,
     "image": "st_paul_cathedral",
     "country": "Reino Unido"
   },
   {
-    "name": "Catedral de Milán",
+    "name": "Catedral de Milão",
     "height": 108,
     "image": "cathedral_of_milan",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
     "name": "Torre Kobe Port",
     "height": 108,
     "image": "kobe_port_tower",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
-    "name": "Catedral de Sevilla",
+    "name": "Catedral de Sevilha",
     "height": 105,
     "image": "catedral_sevilla",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Shwedagon Pagoda",
     "height": 105,
     "image": "shwedagon_pagoda",
-    "country": "Birmania"
+    "country": "Myanmar"
   },
   {
-    "name": "Pirámide roja",
+    "name": "Pirâmide Vermelha",
     "height": 104,
     "image": "red_pyramid",
-    "country": "Egipto"
+    "country": "Egito"
   },
   {
-    "name": "Iglesia de Santa María",
+    "name": "Igreja de Santa Maria",
     "height": 104,
     "image": "st_mary_church",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
-    "name": "Mezquita de Nabawi",
+    "name": "Mesquita de Nabawi",
     "height": 104,
     "image": "nabawi_mosque",
-    "country": "Arabia Saudita"
+    "country": "Arábia Saudita"
   },
   {
-    "name": "Catedral de San Patricio",
+    "name": "Catedral de São Patrício",
     "height": 103,
     "image": "st_patricks_cathedral",
     "country": "Estados Unidos"
@@ -1467,13 +1467,13 @@
     "name": "Sendai Daikannon",
     "height": 100,
     "image": "sendai_daikannon",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
-    "name": "Campanile de San Marcos",
+    "name": "Campanário de São Marcos",
     "height": 99,
     "image": "campanile_de_san_marcos",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
     "name": "Guishan Guanyin",
@@ -1482,10 +1482,10 @@
     "country": "China"
   },
   {
-    "name": "Estatua de Pedro el Grande",
+    "name": "Estátua de Pedro, o Grande",
     "height": 98,
     "image": "peter_the_great_monument",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
     "name": "Big Ben",
@@ -1494,13 +1494,13 @@
     "country": "Reino Unido"
   },
   {
-    "name": "Ayuntamiento de Bruselas",
+    "name": "Câmara Municipal de Bruxelas",
     "height": 96,
     "image": "brussels_city_hall",
     "country": "Bélgica"
   },
   {
-    "name": "Estatua de la Libertad",
+    "name": "Estátua da Liberdade",
     "height": 93,
     "image": "statue_of_liberty",
     "country": "Estados Unidos"
@@ -1509,49 +1509,49 @@
     "name": "Phra Buddha Maha Nawamin",
     "height": 92,
     "image": "phra_buddha_maha_nawamin",
-    "country": "Tailandia"
+    "country": "Tailândia"
   },
   {
     "name": "Catedral de Notre Dame",
     "height": 90,
     "image": "notre_dame",
-    "country": "Francia"
+    "country": "França"
   },
   {
     "name": "Catedral de Burgos",
     "height": 88,
     "image": "catedral_burgos",
-    "country": "España"
+    "country": "Espanha"
   },
   {
-    "name": "Dai Kannon de Kita no Miyako park",
+    "name": "Dai Kannon do Kita no Miyako Park",
     "height": 88,
     "image": "dai_kannon_of_kita_no_miyako_park",
-    "country": "Japón"
+    "country": "Japão"
   },
   {
-    "name": "Campanile de Giotto",
+    "name": "Campanário de Giotto",
     "height": 85,
     "image": "campanile_giotto",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Estatua de la Madre Patria",
+    "name": "Estátua da Mãe Pátria",
     "height": 85,
     "image": "statue_of_the_motherland",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
-    "name": "Puente de Brooklyn",
+    "name": "Ponte do Brooklyn",
     "height": 84,
     "image": "brooklyn_bridge",
     "country": "Estados Unidos"
   },
   {
-    "name": "Castillo del Alcázar de Segovia",
+    "name": "Castelo do Alcázar de Segóvia",
     "height": 80,
     "image": "castillo_del_alcazar_de_segovia",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Foshan Guangdong Guanyin",
@@ -1563,103 +1563,103 @@
     "name": "Catedral de Santiago de Compostela",
     "height": 75,
     "image": "catedral_santiago_de_compostela",
-    "country": "España"
+    "country": "Espanha"
   },
   {
     "name": "Taj Mahal",
     "height": 73,
     "image": "taj_mahal",
-    "country": "India"
+    "country": "Índia"
   },
   {
-    "name": "Palacio de Versalles",
+    "name": "Palácio de Versalhes",
     "height": 73,
     "image": "versalles_palace",
-    "country": "Francia"
+    "country": "França"
   },
   {
     "name": "Torre Spasskaya",
     "height": 71,
     "image": "spasskaya_tower",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
     "name": "Catedral de León",
     "height": 68,
     "image": "catedral_de_leon",
-    "country": "España"
+    "country": "Espanha"
   },
   {
-    "name": "Ópera de Sídney",
+    "name": "Ópera de Sydney",
     "height": 67,
     "image": "sydney_opera_house",
-    "country": "Australia"
+    "country": "Austrália"
   },
   {
-    "name": "Castillo de Neuschwanstein",
+    "name": "Castelo de Neuschwanstein",
     "height": 65,
     "image": "neuschwanstein_castle",
-    "country": "Alemania"
+    "country": "Alemanha"
   },
   {
     "name": "Templo de Angkor Wat",
     "height": 65,
     "image": "angkor_wat",
-    "country": "Camboya"
+    "country": "Camboja"
   },
   {
-    "name": "Pirámide del Sol",
+    "name": "Pirâmide do Sol",
     "height": 65,
     "image": "sun_pyramid",
     "country": "México"
   },
   {
-    "name": "Catedral de San Basilio",
+    "name": "Catedral de São Basílio",
     "height": 65,
     "image": "saint_basil_cathedral",
-    "country": "Rusia"
+    "country": "Rússia"
   },
   {
-    "name": "Pirámide de Micerino",
+    "name": "Pirâmide de Quéfren",
     "height": 61,
     "image": "micerino_pyramid",
-    "country": "Egipto"
+    "country": "Egito"
   },
   {
-    "name": "Pirámide escalonada de Zoser",
+    "name": "Pirâmide Escalonada de Djoser",
     "height": 60,
     "image": "zoser_pyramid",
-    "country": "Egipto"
+    "country": "Egito"
   },
   {
     "name": "Torre de Pisa",
     "height": 57,
     "image": "pisa_tower",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Cristo Rey de Świebodzin",
+    "name": "Cristo Rei de Świebodzin",
     "height": 52,
     "image": "christ_the_king_of_swiebodzin",
-    "country": "Polonia"
+    "country": "Polônia"
   },
   {
-    "name": "Coliseo Romano",
+    "name": "Coliseu Romano",
     "height": 49,
     "image": "roman_colosseum",
-    "country": "Italia"
+    "country": "Itália"
   },
   {
-    "name": "Pirámide de la Luna",
+    "name": "Pirâmide da Lua",
     "height": 43,
     "image": "moon_pyramid",
     "country": "México"
   },
   {
-    "name": "Templo del Loto",
+    "name": "Templo do Lótus",
     "height": 40,
     "image": "lotus_temple",
-    "country": "India"
+    "country": "Índia"
   },
   {
     "name": "Cristo Redentor",
@@ -1671,10 +1671,10 @@
     "name": "Templo de Borobudur",
     "height": 35,
     "image": "borobudur",
-    "country": "Indonesia"
+    "country": "Indonésia"
   },
   {
-    "name": "Pirámide de Kukulkán",
+    "name": "Pirâmide de Kukulkán",
     "height": 30,
     "image": "kukulkan_pyramid",
     "country": "México"
