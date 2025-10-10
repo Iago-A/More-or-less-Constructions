@@ -2,7 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/sky_blue">
+
+    <ImageView
+        android:id="@+id/app_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_image"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/score_tittle_text_view"
@@ -13,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/game_over_text_view"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:textColor="#E0E0E0"/>
 
     <TextView
         android:id="@+id/score_number_text_view"
@@ -23,7 +35,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/score_tittle_text_view"
         android:layout_margin="10dp"
-        android:textSize="44sp" />
+        android:textSize="44sp"
+        android:textColor="#E0E0E0"/>
 
     <TextView
         android:id="@+id/game_over_text_view"
@@ -35,7 +48,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:gravity="center"
         android:padding="20dp"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="#E0E0E0"/>
 
     <Button
         android:id="@+id/play_again_button"
