@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Obtain views references
-        TextView titleTextView = findViewById(R.id.title_text_view);
         Button startButton = findViewById(R.id.start_button);
 
         startButton.setOnClickListener(v -> {

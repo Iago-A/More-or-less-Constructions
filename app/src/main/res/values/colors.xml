@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="sky_blue">#000078</color>
+    <color name="colorPrimary">#B388FF</color>
+    <color name="colorOnPrimary">#1C1C1C</color>
+    <color name="colorSecondary">#2E5EAA</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSurface">#1B1E2D</color>
+    <color name="colorOnSurface">#F2F2F2</color>
+    <color name="colorError">#E57373</color>
+    <color name="colorOutline">#90A4AE</color>
 </resources>
