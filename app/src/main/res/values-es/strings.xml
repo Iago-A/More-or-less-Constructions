@@ -9,4 +9,14 @@
     <string name="game_over_5">¡Wow! ¡Estás hecho toda una enciclopedia andante!</string>
     <string name="play_again">Volver a jugar</string>
     <string name="main_menu">Menú principal</string>
+    <string name="reset_record">Reiniciar record</string>
+    <string name="warning">Aviso</string>
+    <string name="reset_record_warning">¿Estás seguro de que quieres reiniciar tu record a 0?</string>
+    <string name="confirm">Sí</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reset_record_success">Record reiniciado correctamente</string>
+    <string name="about_app">Sobre la app</string>
+    <string name="about_app_message"> Imágenes obtenidas de fuentes públicas en Internet; pertenecen a sus respectivos autores.\n
+            Este proyecto se distribuye con fines informativos y de entretenimiento.\n\n
+            Aplicación desarrollada por Iago Blanco.</string>
 </resources>
