@@ -9,4 +9,12 @@
     <string name="game_over_5">Wow! Du bist wie ein wandelndes Lexikon!</string>
     <string name="play_again">Nochmal spielen</string>
     <string name="main_menu">Hauptmenü</string>
+    <string name="reset_record">Rekord zurücksetzen</string>
+    <string name="warning">Warnung</string>
+    <string name="reset_record_warning">Bist du sicher, dass du deinen Rekord auf 0 zurücksetzen möchtest?</string>
+    <string name="confirm">Ja</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="reset_record_success">Rekord erfolgreich zurückgesetzt</string>
+    <string name="about_app">Über die App</string>
+    <string name="about_app_message">Bilder stammen aus öffentlichen Quellen im Internet; sie gehören ihren jeweiligen Autoren.\nDieses Projekt wird zu Informations- und Unterhaltungszwecken verteilt.\n\nAnwendung entwickelt von Iago Blanco Cañás.</string>
 </resources>

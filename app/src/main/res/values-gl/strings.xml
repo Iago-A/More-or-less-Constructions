@@ -9,4 +9,12 @@
     <string name="game_over_5">Wow! Es case unha enciclopedia ambulante!</string>
     <string name="play_again">Volver xogar</string>
     <string name="main_menu">Menú principal</string>
+    <string name="reset_record">Restablecer rexistro</string>
+    <string name="warning">Aviso</string>
+    <string name="reset_record_warning">Estás seguro de que queres reiniciar o teu rexistro a 0?</string>
+    <string name="confirm">Si</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reset_record_success">Rexistro restablecido correctamente</string>
+    <string name="about_app">Sobre a app</string>
+    <string name="about_app_message">Imaxes obtidas de fontes públicas en Internet; pertencen aos seus respectivos autores.\nEste proxecto distribúese con fins informativos e de entretemento.\n\nAplicación desenvolvida por Iago Blanco Cañás.</string>
 </resources>

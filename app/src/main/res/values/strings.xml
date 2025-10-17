@@ -9,4 +9,12 @@
     <string name="game_over_5">Wow! You’re like a walking encyclopedia!</string>
     <string name="play_again">Play Again</string>
     <string name="main_menu">Main Menu</string>
+    <string name="reset_record">Reset record</string>
+    <string name="warning">Warning</string>
+    <string name="reset_record_warning">Are you sure you want to reset your record to 0?</string>
+    <string name="confirm">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_record_success">Record reseted successfully</string>
+    <string name="about_app">About the app</string>
+    <string name="about_app_message">Images obtained from public sources on the Internet; they belong to their respective authors.\nThis project is distributed for informational and entertainment purposes.\n\nApplication developed by Iago Blanco Cañás.</string>
 </resources>

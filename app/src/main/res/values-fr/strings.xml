@@ -9,4 +9,12 @@
     <string name="game_over_5">Wow! Tu es comme une encyclopédie ambulante!</string>
     <string name="play_again">Rejouer</string>
     <string name="main_menu">Menu principal</string>
+    <string name="reset_record">Réinitialiser le score</string>
+    <string name="warning">Attention</string>
+    <string name="reset_record_warning">Êtes-vous sûr de vouloir réinitialiser votre score à 0 ?</string>
+    <string name="confirm">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="reset_record_success">Score réinitialisé avec succès</string>
+    <string name="about_app">À propos de l’app</string>
+    <string name="about_app_message">Images obtenues à partir de sources publiques sur Internet ; elles appartiennent à leurs auteurs respectifs.\nCe projet est distribué à des fins d’information et de divertissement.\n\nApplication développée par Iago Blanco Cañás.</string>
 </resources>
