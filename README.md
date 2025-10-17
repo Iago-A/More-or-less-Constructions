@@ -2,6 +2,66 @@
 
 # More or Less: Constructions
 
+## :globe_with_meridians: English version :globe_with_meridians:
+
+## 📝 About the application
+
+More or Less: Constructions is an Android mobile application developed as a personal project, designed to test the user's skills in a number-guessing style game ("higher or lower").
+The app allows single-player games, where several constructions are randomly displayed from a database of 281 buildings, bridges, statues, or monuments, which can be expanded in the future.
+
+The application has been developed using Android as the main platform, with local storage via SharedPreferences to save each user's records and JSON files to manage construction data.
+It is designed for any user with an Android device — once installed, it can be played offline, and it offers a modern design with responsive backgrounds and an intuitive interface.
+
+In terms of language support, it is available in Spanish, Galician, Basque, Catalan, English, Portuguese, French, German, Italian, Chinese, Japanese, and Korean.
+
+## :iphone: App features
+- `Game`: When starting the game, two constructions are shown, but only one of them displays its height. The user must choose which one they believe is taller.
+
+If they guess correctly, the game continues, replacing the shorter construction (unless the winning one has remained for two consecutive rounds, in which case it will be replaced to avoid repetition).
+
+If the user chooses the shorter one, the game ends, showing the total number of rounds won.
+
+Additionally, a functionality was added so that any construction that has already appeared will not show up again for the next 20 rounds, preventing repetition and keeping the gameplay engaging.
+    
+- `Extras`: This section was designed to include useful functions such as:
+  - Resetting the victory record.
+  - Viewing information about the application.
+
+- `Language supports`: The app automatically changes its language depending on the one set on the user's smartphone.
+
+## :camera: Screenshots
+
+<img src="https://github.com/user-attachments/assets/474c1671-da80-4e43-a876-aa7d9c69f112" width=290> <img src="https://github.com/user-attachments/assets/edff341b-926e-4031-b216-5cd56d4b9d87" width=290> 
+<img src="https://github.com/user-attachments/assets/bd8d6b08-b935-4d50-a0b8-5c8db703b702" width=290>
+
+## :eyes: How to try the project
+
+There are two ways to try the application:
+ - `Download the project from GitHub`: Clone or download the repository, open it with your IDE (e.g., Android Studio), and run it on an Android emulator.
+ - `Download from the Play Store`: It is planned for the app to be available for download on the Google Play Store.
+
+## :computer: Project status
+
+:confetti_ball: **Version 1.0 completed** :confetti_ball:
+
+## :heavy_check_mark: Technologies used:
+
+- **Java** - Main programming language
+- **XML** - UI design
+- **JSON** - Data storage 
+- **Android SDK** - Development platform
+
+## :construction_worker: Project developers
+
+| <img src="https://avatars.githubusercontent.com/u/181847143?v=4" width=115><br><sub>Iago Blanco Cañás</sub> 
+| :---: | 
+
+A special thanks to my friend Jesús for helping me with the game idea, and to all the photographers and authors of the images used, for taking and sharing them online. :blue_heart:
+
+
+
+
+## :globe_with_meridians: Versión en Español :globe_with_meridians:
 
 ## 📝 Sobre la aplicación
 
