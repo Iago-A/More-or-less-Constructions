@@ -9,4 +9,12 @@
     <string name="game_over_5">Wow! Zure burua ibiltzen den entziklopedia bat bezala zara!</string>
     <string name="play_again">Berriro jolastu</string>
     <string name="main_menu">Menu nagusia</string>
+    <string name="reset_record">Erregistroa berrezarri</string>
+    <string name="warning">Abisua</string>
+    <string name="reset_record_warning">Ziur zaude zure erregistroa 0-ra berrezarri nahi duzula?</string>
+    <string name="confirm">Bai</string>
+    <string name="cancel">Ezeztatu</string>
+    <string name="reset_record_success">Erregistroa ondo berrezarri da</string>
+    <string name="about_app">App-i buruz</string>
+    <string name="about_app_message">Irudiak Interneteko iturri publikoetatik lortutakoak dira; beren egileei dagozkie.\nProiektu hau informazio eta entretenimendu helburuetarako banatzen da.\n\nAplikazioa garatu du Iago Blanco Cañás-ek.</string>
 </resources>

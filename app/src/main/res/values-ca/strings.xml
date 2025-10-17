@@ -9,4 +9,12 @@
     <string name="game_over_5">Wow! Ets gairebé una enciclopèdia ambulant!</string>
     <string name="play_again">Tornar a jugar</string>
     <string name="main_menu">Menú principal</string>
+    <string name="reset_record">Reinicia rècord</string>
+    <string name="warning">Avís</string>
+    <string name="reset_record_warning">Segur que vols reiniciar el teu rècord a 0?</string>
+    <string name="confirm">Sí</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="reset_record_success">Rècord reiniciat correctament</string>
+    <string name="about_app">Sobre l’app</string>
+    <string name="about_app_message">Imatges obtingudes de fonts públiques a Internet; pertanyen als respectius autors.\nAquest projecte es distribueix amb finalitats informatives i d’entreteniment.\n\nAplicació desenvolupada per Iago Blanco Cañás.</string>
 </resources>

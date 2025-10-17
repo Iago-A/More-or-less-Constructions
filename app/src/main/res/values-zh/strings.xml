@@ -9,4 +9,12 @@
     <string name="game_over_5">哇！你简直就是一本行走的百科全书！</string>
     <string name="play_again">再玩一次</string>
     <string name="main_menu">主菜单</string>
+    <string name="reset_record">重置记录</string>
+    <string name="warning">警告</string>
+    <string name="reset_record_warning">您确定要将记录重置为0吗？</string>
+    <string name="confirm">是</string>
+    <string name="cancel">取消</string>
+    <string name="reset_record_success">记录已成功重置</string>
+    <string name="about_app">关于应用</string>
+    <string name="about_app_message">图片来源于互联网公开资源，归各自作者所有。\n本项目用于信息和娱乐目的。\n\n应用程序开发者：Iago Blanco Cañás</string>
 </resources>

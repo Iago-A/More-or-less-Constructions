@@ -16,7 +16,5 @@
     <string name="cancel">Cancelar</string>
     <string name="reset_record_success">Record reiniciado correctamente</string>
     <string name="about_app">Sobre la app</string>
-    <string name="about_app_message"> Imágenes obtenidas de fuentes públicas en Internet; pertenecen a sus respectivos autores.\n
-            Este proyecto se distribuye con fines informativos y de entretenimiento.\n\n
-            Aplicación desarrollada por Iago Blanco.</string>
+    <string name="about_app_message">Imágenes obtenidas de fuentes públicas en Internet; pertenecen a sus respectivos autores.\nEste proyecto se distribuye con fines informativos y de entretenimiento.\n\nAplicación desarrollada por Iago Blanco Cañás.</string>
 </resources>

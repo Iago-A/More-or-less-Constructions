@@ -9,4 +9,12 @@
     <string name="game_over_5">わあ！まるで歩く百科事典のようですね！</string>
     <string name="play_again">もう一度プレイ</string>
     <string name="main_menu">メインメニュー</string>
+    <string name="reset_record">記録をリセット</string>
+    <string name="warning">警告</string>
+    <string name="reset_record_warning">記録を0にリセットしてもよろしいですか？</string>
+    <string name="confirm">はい</string>
+    <string name="cancel">キャンセル</string>
+    <string name="reset_record_success">記録が正常にリセットされました</string>
+    <string name="about_app">アプリについて</string>
+    <string name="about_app_message">画像はインターネット上の公開ソースから取得されました。各著者に帰属します。\nこのプロジェクトは情報提供と娯楽目的で配布されています。\n\nアプリケーション開発者：Iago Blanco Cañás</string>
 </resources>

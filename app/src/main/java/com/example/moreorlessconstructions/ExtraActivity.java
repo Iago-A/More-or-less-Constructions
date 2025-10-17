@@ -35,26 +35,33 @@ public class ExtraActivity extends AppCompatActivity {
         });
 
         resetRecordButton.setOnClickListener(v -> {
-            new AlertDialog.Builder(ExtraActivity.this)
+            AlertDialog dialog = new AlertDialog.Builder(ExtraActivity.this)
                     .setTitle(R.string.warning)
                     .setMessage(R.string.reset_record_warning)
-                    .setPositiveButton(R.string.confirm, (dialog, which) -> {
+                    .setPositiveButton(R.string.confirm, (d, which) -> {
                         resetRecord();
                         Toast.makeText(ExtraActivity.this, R.string.reset_record_success, Toast.LENGTH_SHORT).show();
                     })
-                    .setNegativeButton(R.string.cancel, (dialog, which) -> {
-                        dialog.dismiss();
-                    })
-                    .show();
+                    .setNegativeButton(R.string.cancel, (d, which) -> d.dismiss())
+                    .create();
 
-            // Centrar mensaje
-            // Colores a los botones????
+            dialog.show();
+
+            // Change the buttons colors
+            Button positiveButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+            Button negativeButton = dialog.getButton(AlertDialog.BUTTON_NEGATIVE);
+
+            if (positiveButton != null && negativeButton != null) {
+                positiveButton.setTextColor(getResources().getColor(R.color.red_medium));
+                negativeButton.setTextColor(getResources().getColor(R.color.colorOnPrimary));
+            }
         });
 
         aboutAppButton.setOnClickListener(v -> {
-            // Terminar esto Iago!!
+            new AlertDialog.Builder(ExtraActivity.this)
+                    .setMessage(R.string.about_app_message)
+                    .show();
         });
-
     }
 
     public void showAppVersion (TextView versionTextView) {
@@ -76,3 +83,6 @@ public class ExtraActivity extends AppCompatActivity {
         editor.apply();
     }
 }
+
+
+

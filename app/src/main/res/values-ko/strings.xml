@@ -9,4 +9,12 @@
     <string name="game_over_5">와! 당신은 걸어다니는 백과사전 같아요!</string>
     <string name="play_again">다시 하기</string>
     <string name="main_menu">메인 메뉴</string>
+    <string name="reset_record">기록 재설정</string>
+    <string name="warning">경고</string>
+    <string name="reset_record_warning">기록을 0으로 재설정하시겠습니까?</string>
+    <string name="confirm">예</string>
+    <string name="cancel">취소</string>
+    <string name="reset_record_success">기록이 성공적으로 재설정되었습니다</string>
+    <string name="about_app">앱 정보</string>
+    <string name="about_app_message">이미지는 인터넷의 공개 소스에서 가져왔습니다. 각 저자에게 속합니다.\n이 프로젝트는 정보 제공 및 오락 목적으로 배포됩니다.\n\n응용 프로그램 개발자: Iago Blanco Cañás</string>
 </resources>

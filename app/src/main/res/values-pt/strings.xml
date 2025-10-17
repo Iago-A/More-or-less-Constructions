@@ -9,4 +9,12 @@
     <string name="game_over_5">Uau! Você é como uma enciclopédia ambulante!</string>
     <string name="play_again">Jogar novamente</string>
     <string name="main_menu">Menu principal</string>
+    <string name="reset_record">Redefinir recorde</string>
+    <string name="warning">Aviso</string>
+    <string name="reset_record_warning">Tem a certeza de que pretende redefinir o seu recorde para 0?</string>
+    <string name="confirm">Sim</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reset_record_success">Recorde redefinido com sucesso</string>
+    <string name="about_app">Sobre a app</string>
+    <string name="about_app_message">Imagens obtidas de fontes públicas na Internet; pertencem aos respetivos autores.\nEste projeto é distribuído para fins informativos e de entretenimento.\n\nAplicação desenvolvida por Iago Blanco Cañás.</string>
 </resources>

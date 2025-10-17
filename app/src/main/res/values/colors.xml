@@ -11,4 +11,5 @@
     <color name="colorOnSurface">#F2F2F2</color>
     <color name="colorError">#E57373</color>
     <color name="colorOutline">#90A4AE</color>
+    <color name="red_medium">#D32F2F</color>
 </resources>
