@@ -258,7 +258,7 @@ public class GameActivity extends AppCompatActivity {
     public void saveInPlayedConstruction (int randomNumber) {
         playedConstruction[i] = randomNumber;
 
-        if (i == playedConstruction.length) {
+        if (i == (playedConstruction.length - 1)) {
             // As the index won't be 0 never again, this is necessary to "liberate" the first construction saved on
             // the first round
             if (!arrayLoop) {
