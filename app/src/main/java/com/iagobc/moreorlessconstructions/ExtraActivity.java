@@ -1,4 +1,4 @@
-package com.example.moreorlessconstructions;
+package com.iagobc.moreorlessconstructions;
 
 import android.app.AlertDialog;
 import android.content.SharedPreferences;

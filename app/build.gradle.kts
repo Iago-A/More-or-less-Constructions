@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.moreorlessconstructions"
+    namespace = "com.iagobc.moreorlessconstructions"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.moreorlessconstructions"
+        applicationId = "com.iagobc.moreorlessconstructions"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

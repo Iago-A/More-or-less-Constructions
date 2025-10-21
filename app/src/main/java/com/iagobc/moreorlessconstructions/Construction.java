@@ -1,4 +1,4 @@
-package com.example.moreorlessconstructions;
+package com.iagobc.moreorlessconstructions;
 
 public class Construction {
     private String name;

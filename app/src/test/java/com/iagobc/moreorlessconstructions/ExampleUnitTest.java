@@ -1,4 +1,4 @@
-package com.example.moreorlessconstructions;
+package com.iagobc.moreorlessconstructions;
 
 import org.junit.Test;
 
