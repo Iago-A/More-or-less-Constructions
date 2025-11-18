@@ -17,4 +17,5 @@
     <string name="reset_record_success">Record reseted successfully</string>
     <string name="about_app">About the app</string>
     <string name="about_app_message">Images obtained from public sources on the Internet; they belong to their respective authors.\nThis project is distributed for informational and entertainment purposes.\n\nApplication developed by Iago Blanco Cañás.</string>
+    <string name="how_to_play">How to play?</string>
 </resources>
