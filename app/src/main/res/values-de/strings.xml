@@ -17,4 +17,6 @@
     <string name="reset_record_success">Rekord erfolgreich zurückgesetzt</string>
     <string name="about_app">Über die App</string>
     <string name="about_app_message">Bilder stammen aus öffentlichen Quellen im Internet; sie gehören ihren jeweiligen Autoren.\nDieses Projekt wird zu Informations- und Unterhaltungszwecken verteilt.\n\nAnwendung entwickelt von Iago Blanco Cañás.</string>
+    <string name="how_to_play">Wie wird gespielt?</string>
+    <string name="tutorial">Während des Spiels werden zwei Bauwerke als Bilder angezeigt. Eines davon zeigt seine Höhe an, das andere nicht. Dein Ziel ist es, auszuwählen, welches der beiden Bauwerke höher ist.\n\nTippe dazu einfach auf das Bild, das du für richtig hältst. Anschließend wird die versteckte Höhe angezeigt.\n\n- Wenn du das höhere Bauwerk ausgewählt hast, geht das Spiel weiter und ein neues Bild erscheint.\n\n- Wenn nicht, endet das Spiel.\n\nOben rechts werden deine aktuelle Treffer-Serie und dein Rekord angezeigt.</string>
 </resources>

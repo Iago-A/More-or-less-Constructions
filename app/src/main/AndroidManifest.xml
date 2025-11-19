@@ -37,6 +37,10 @@
             android:name=".ExtraActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".TutorialActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
