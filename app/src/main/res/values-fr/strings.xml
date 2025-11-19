@@ -17,4 +17,6 @@
     <string name="reset_record_success">Score réinitialisé avec succès</string>
     <string name="about_app">À propos de l’app</string>
     <string name="about_app_message">Images obtenues à partir de sources publiques sur Internet ; elles appartiennent à leurs auteurs respectifs.\nCe projet est distribué à des fins d’information et de divertissement.\n\nApplication développée par Iago Blanco Cañás.</string>
+    <string name="how_to_play">Comment jouer?</string>
+    <string name="tutorial">Pendant la partie, deux constructions seront affichées sous forme d’images. L’une indique sa hauteur, l’autre non. Ton objectif est de choisir laquelle des deux constructions te semble la plus haute.\n\nPour cela, il suffit d’appuyer sur l’image que tu penses correcte. La hauteur cachée sera ensuite révélée.\n\n- Si tu as choisi la construction la plus haute, la partie continue et une nouvelle image apparaîtra.\n\n- Sinon, la partie se termine.\n\nEn haut à droite, ta série actuelle de bonnes réponses et ton record sont affichés.</string>
 </resources>

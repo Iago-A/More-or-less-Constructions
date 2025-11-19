@@ -17,4 +17,6 @@
     <string name="reset_record_success">记录已成功重置</string>
     <string name="about_app">关于应用</string>
     <string name="about_app_message">图片来源于互联网公开资源，归各自作者所有。\n本项目用于信息和娱乐目的。\n\n应用程序开发者：Iago Blanco Cañás</string>
+    <string name="how_to_play">怎么玩？</string>
+    <string name="tutorial">在游戏过程中会显示两个建筑的图片。其中一个会标明高度，另一个没有。你的目标是选择你认为更高的建筑。\n\n只需点击你认为正确的图片。随后会显示原本隐藏的高度。\n\n- 如果你选择了更高的建筑，游戏将继续并显示新的图片。\n\n- 否则，游戏结束。\n\n右上角会显示你当前的连对次数和你的最高记录。</string>
 </resources>

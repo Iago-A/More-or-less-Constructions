@@ -17,4 +17,6 @@
     <string name="reset_record_success">Record reimpostato correttamente</string>
     <string name="about_app">Informazioni sull’app</string>
     <string name="about_app_message">Immagini ottenute da fonti pubbliche su Internet; appartengono ai rispettivi autori.\nQuesto progetto è distribuito a scopo informativo e di intrattenimento.\n\nApplicazione sviluppata da Iago Blanco Cañás.</string>
+    <string name="how_to_play">Come si gioca?</string>
+    <string name="tutorial">Durante la partita verranno mostrate due costruzioni in immagini. Una indica la sua altezza, l’altra no. Il tuo obiettivo è scegliere quale delle due costruzioni pensi sia più alta.\n\nPer farlo, tocca semplicemente l’immagine che ritieni corretta. L’altezza nascosta verrà poi rivelata.\n\n- Se hai selezionato la costruzione più alta, la partita continua e apparirà un’altra immagine.\n\n- Altrimenti, la partita termina.\n\nIn alto a destra sono mostrati la tua serie attuale di risposte corrette e il tuo record.</string>
 </resources>

@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/game_over_text_view"
         android:textSize="18sp"
-        android:textColor="#E0E0E0"/>
+        android:textColor="@color/white_gray"/>
 
     <TextView
         android:id="@+id/score_number_text_view"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@id/score_tittle_text_view"
         android:layout_margin="10dp"
         android:textSize="44sp"
-        android:textColor="#E0E0E0"/>
+        android:textColor="@color/white_gray"/>
 
     <TextView
         android:id="@+id/game_over_text_view"
@@ -49,7 +49,7 @@
         android:gravity="center"
         android:padding="20dp"
         android:textSize="20sp"
-        android:textColor="#E0E0E0"/>
+        android:textColor="@color/white_gray"/>
 
     <Button
         android:id="@+id/play_again_button"

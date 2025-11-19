@@ -17,4 +17,6 @@
     <string name="reset_record_success">記録が正常にリセットされました</string>
     <string name="about_app">アプリについて</string>
     <string name="about_app_message">画像はインターネット上の公開ソースから取得されました。各著者に帰属します。\nこのプロジェクトは情報提供と娯楽目的で配布されています。\n\nアプリケーション開発者：Iago Blanco Cañás</string>
+    <string name="how_to_play">遊び方</string>
+    <string name="tutorial">プレイ中は2つの建物の画像が表示されます。そのうち1つは高さが表示されていますが、もう1つは表示されていません。あなたの目的は、どちらの建物がより高いと思うかを選ぶことです。\n\n正しいと思う画像をタップするだけで構いません。その後、隠れていた高さが表示されます。\n\n- もしより高い建物を選んだ場合、ゲームは続き、新しい画像が表示されます。\n\n- そうでない場合、ゲームは終了します。\n\n右上には、現在の連続正解数とあなたの最高記録が表示されます。</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="reset_record_success">Rècord reiniciat correctament</string>
     <string name="about_app">Sobre l’app</string>
     <string name="about_app_message">Imatges obtingudes de fonts públiques a Internet; pertanyen als respectius autors.\nAquest projecte es distribueix amb finalitats informatives i d’entreteniment.\n\nAplicació desenvolupada per Iago Blanco Cañás.</string>
+    <string name="how_to_play">Com es juga?</string>
+    <string name="tutorial">Durant la partida es mostraran dues construccions en imatges. Una té indicada la seva alçada, però l’altra no. El teu objectiu és triar quina de les dues construccions creus que és més alta.\n\nPer fer-ho, simplement toca la imatge que consideris correcta. A continuació es revelarà l’alçada que estava oculta.\n\n- Si has seleccionat la construcció més alta, la partida continua i apareixerà una altra imatge diferent.\n\n- Si no, la partida acaba.\n\nA la part superior dreta es mostra la teva ratxa actual d’encerts i el teu rècord.</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="reset_record_success">기록이 성공적으로 재설정되었습니다</string>
     <string name="about_app">앱 정보</string>
     <string name="about_app_message">이미지는 인터넷의 공개 소스에서 가져왔습니다. 각 저자에게 속합니다.\n이 프로젝트는 정보 제공 및 오락 목적으로 배포됩니다.\n\n응용 프로그램 개발자: Iago Blanco Cañás</string>
+    <string name="how_to_play">게임 방법</string>
+    <string name="tutorial">게임 중에는 두 개의 건물이 이미지로 표시됩니다. 한 건물은 높이가 표시되지만, 다른 하나는 표시되지 않습니다. 당신의 목표는 두 건물 중 어느 것이 더 높은지 선택하는 것입니다.\n\n올바르다고 생각하는 이미지를 탭하면 됩니다. 그러면 숨겨져 있던 높이가 표시됩니다.\n\n- 더 높은 건물을 선택했다면 게임은 계속되고 새로운 이미지가 나타납니다.\n\n- 그렇지 않으면 게임이 종료됩니다.\n\n오른쪽 상단에는 현재 연속 정답 수와 당신의 최고 기록이 표시됩니다.</string>
 </resources>
